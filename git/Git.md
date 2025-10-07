@@ -10,7 +10,7 @@ status: updating
 - [ ] [给傻子的Git教程](https://www.bilibili.com/video/BV1Hkr7YYEh8/?spm_id_from=333.337.search-card.all.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2)
 
 # 1. 简介
-(link::[一小时Git教程](https://www.bilibili.com/video/BV1HM411377j/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2))
+(link::[01.课程简介](https://www.bilibili.com/video/BV1HM411377j/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2))
 - **Git是一个免费开源的分布式版本控制系统**，它使用一个特殊的叫做仓库的数据库来记录文件的变化。仓库中的每个文件都有一个完整的版本历史记录，可以看到谁在什么时间修改了哪些文件的哪些内容，在需要的时候也可以将文件恢复到之前的某一个版本；
 
 - 如果我们没有版本控制，那么我们就只能通过最原始的方式来管理文件，比如将文件按照日期备份出多个副本，比如将文件按照日期备份出多个副本或者将整个项目的每个版本都保存在不同的文件夹中；而当很多项目成员同时在修改同一个项目的时候就需要手工来合并两个人的修改内容；这样不但低效管理起来也非常麻烦。
@@ -31,7 +31,7 @@ status: updating
 # 2.安装和初始化配置
 (link::[02.安装和初始化配置](https://www.bilibili.com/video/BV1HM411377j?spm_id_from=333.788.videopod.sections&vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=2))
 ## Git 的使用方式
-(link1::[Git的使用方式](https://www.bilibili.com/video/BV1HM411377j?t=65.2&p=2))
+(link::[Git的使用方式](https://www.bilibili.com/video/BV1HM411377j?t=65.2&p=2))
 1.**图形化界面(GUI)**
 2.**IDE插件/扩展**
 3.**命令行**
@@ -67,7 +67,7 @@ git config --global credential.helper store
 git config --global --list
 ```
 # 3. 新建仓库
-(link::[3.新建仓库](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=3&spm_id_from=333.788.player.switch))
+(link::[03.新建仓库](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=3&spm_id_from=333.788.player.switch))
 版本库又叫仓库，英文名叫Repository 简称 Repo。大家可以把仓库理解成一个目录，这个目录里面所有的文件都可以被Git管理起来，每个文件的修改、删除、添加等操作，Git都能够跟踪到，以便任何时候都可以追踪历史或者还原到之前的某一个版本；
 创建一个仓库非常的简单，只需要把一个目录变成Git可以管理的仓库就可以了，一般来说可以通过两种方式来创建一个仓库——
 ## 1. `git init`
@@ -178,9 +178,10 @@ git commit -m <files>
 ```
 - `-m` 指定提交的信息，这个信息会被记录到仓库中；如果不指定 `-m` 这个参数，那么`git commit`命令会进入一个交互式的界面，默认会使用vim来编辑提交信息；
 等到我们学习远程仓库的时候，再来演示一下，到时候就可以直观的看到本地仓库的哪些文件的哪些内容被提交到了远程仓库里面，大家的理解会更加深刻一点；
+### 总结
+![[总结-添加提交文件.png]]
 
-
-# 6. `git reset` 回退版本（未实践代码）
+# 6. `git reset` 回退版本
 (link::[06.git reset回退版本](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=6&spm_id_from=333.788.videopod.sections))
 在日常开发的时候，我们经常会需要撤销之前的一些修改内容或者回退到之前的某一个版本，这个时候 `get reset` 这个命令就派上用场了，可以退回到之前的某一个提交的状态;
 
@@ -215,7 +216,7 @@ cp -rf <old_folder> <new_folder>
 git reflog
 ```
 # 7. `git diff` 查看差异
-(link1::[07.使用git diff查看差异](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.sections&p=7))
+(link::[07.使用git diff查看差异](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.sections&p=7))
 ### 功能
 `git diff` 它可以
 - 用来查看文件在工作区、暂存区以及版本库之间的差异，
@@ -241,20 +242,78 @@ git diff HEAD
 ```Git
 git diff --cached
 ```
-
-
-
-
+- **比较两个版本之间的差异内容**：
+```Git
+git diff version_ID1 version_ID2
+```
+除了使用提交 `ID` 之外，还可以使用 `HEAD` 来表示当前分支的最新提交
+HEAD是Git中的一个非常重要的概念，它指向分支的最新提交节点，我们也可以使用某一个版本的`提交ID` 和 `HEAD` 来进行比较; 
  
+最经常用到的就是比较当前版本和上一个版本之间的差异，这里Git也为我们提供了一个更加简便的方式，就是我们可以使用 `HEAD~` 或者 `HEAD^` 来表示上一个版本；同时 `HEAD~num` 表示 `HEAD` 之前的 `num` 个版本，
+- **查看文件差异内容**：
+```Git
+git diff HEAD1 HEAD2 <filename>
+```
+- **查看两个分支之间的差异**：
+等到我们学习分支的时候再来详细讲解
+### 总结
+![[总结-git diff.png]]
 
-``` powershell
+# 08. 使用 `git rm`删除文件
+(link::[08.使用git rm删除文件](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=8&spm_id_from=333.788.videopod.sections))
+如何从版本库中删除文件，有两种方式
+### 1. 直接删除文件之后提交
+(link1::[代码演示](https://www.bilibili.com/video/BV1HM411377j?t=13.1&p=8))
+```powershell
+rm <filename>
+```
+- **查看暂存区中的内容**：你会发现暂存区中的文件并没有被删除，所以需要下一步删除暂存区中的内容；
+```Git
+git ls-files
+```
+- **更新暂存区**：
+```Git
+git add.
+```
+### 2. `git rm`
+
+```Git
+git rm <filename>
+git commit
+```
+可以通过一下多种方式查看删除的情况内：
+```powershell
+ls
+```
+```powershell
+git ls-files
+git status
+```
+### 拓展
+- 把文件从暂存区删除，但保留在当前工作区中：
+```Git
+git rm --cached <file>
+```
+- 递归删除某个目录下的所有子目录和文件，删除后不要忘记提交：
+```Git
+git rm -r*
+```
+### 总结
+![[总结-删除文件.png]]
+# 9. `gitignore` 忽略文件
+(link::[09.gitignore忽略文件](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.sections&p=9))
+
+
+
+
+
+
+
+```powershell
 
 ```
+
 
 ```Git
 
 ```
-
-
-
-
