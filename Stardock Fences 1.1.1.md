@@ -1,7 +1,6 @@
 ---
 date: 2025-10-07
 type: Software
-sort: Stardock Fences
 status: updating
 source: video
 ---

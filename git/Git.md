@@ -1,13 +1,16 @@
 ---
 date: 2025-10-06
 type: Tutorial
-sort: git
 source: video
 status: updating
 ---
 
 # 1. VsCode + Git
 - [ ] [给傻子的Git教程](https://www.bilibili.com/video/BV1Hkr7YYEh8/?spm_id_from=333.337.search-card.all.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2)
+
+```powershell
+cd D:\obsidian-study\学习记录\笔记\Software
+```
 
 # 1. 简介
 (link::[01.课程简介](https://www.bilibili.com/video/BV1HM411377j/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2))
@@ -302,8 +305,168 @@ git rm -r*
 ![[总结-删除文件.png]]
 # 9. `gitignore` 忽略文件
 (link::[09.gitignore忽略文件](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.sections&p=9))
+这个文件的作用也就是可以让我们您略掉一些不应该被加入到版本库中的文件，这样可以让我们的仓库体积更小更加干净，那么哪些文件是不应该被纳入到版本库中的呢？
+### 原则-应该忽略哪些文件？
+- 系统或者软件自动生成的文件，比如一些工具或者软件产生的临时文件；
+- 编译产生的中间文件和结果文件，也就是如果一个文件是通过另一个文件自动生成的，那自动生成的这个文件就没有必要放到版本库里面，比如 `Java` 编译生成的 `.class` 文件、C 语言编译生成的 `.o` 文件；
+- 运行时生成日志文件、缓存文件、临时文件；
+- 涉及身份、密码、口令、秘钥等敏感信息文件，这些文件里面如果包含用户名、密码、Token的话；
+### 操作方式
+(link1::[代码演示](https://www.bilibili.com/video/BV1HM411377j?t=82.7&p=9))
+- 我们可以在这个文件中列出需要忽略的文件的模式，这样这些文件就不会被提交到版本库中
+![[代码-gitignore.png|264x133]]
+- `.gitignore` 文件生效需要有一个前提，就是这个文件不能是已经被添加到版本库中的文件；
+- `.gitignore` 文件中还可以配置文件夹的名称
+- Git 默认是不会将空的文件夹添加到仓库里面的
+```Git
+git status -s
+```
+- `-s` 是 short 的简写，表示查看状态这个命令的简略模式
+- 结果会显示 `??` ，这里的`??`第一列表示是暂存区的状态，第二列表示工作区的状态
+- 结果中的 `M` 表示文件别修改
+### `.gitignore` 文件的匹配规则
+- [Git官网匹配规则](https://git-scm.com/docs/gitignore)
+- [常用忽略文件模板](https://github.com/github/gitignore)
+
+- 从上到下逐行匹配，每一行表示一个忽略模式；
+- 空行或者以`#`开头的行会被Git忽略。一般空行用于可读性的分隔，`#`一般用作注释
+- 使用标准的Blob模式匹配，例如：
+	- 星号`*`通配任意个字符
+	- 问号`?`匹配单个字符
+	- 中括号`[]`表示匹配列表中的单个字符，比如：`[abc]`表示`a/b/c`
+- 两个星号`**`表示匹配任意的中间目录
+- 中括号可以使用短中线连接，表示所有在这两个字符范围内的都可以匹配，比如：
+	- `[0-9]`表示任意一位数字，`[a-z]`表示任意一位小写字母；
+- 感叹号 `!` 表示取反
+```.gitignore
+# 忽略所有的.a文件
+*.a
+
+# 但跟踪所有的lib.a,即便你在前面忽略了.a文件
+！lib.a
+
+#只忽略当前目录下的TOD0O文件，而不忽略subdir/TODO
+/TODO
+
+#忽略任何目录下名为build的文件夹
+build/
+
+#忽略doc/notes.txt,但不忽略doc/server/arch.txt
+doc/*.txt
+
+#忽略doc/目录及其所有子目录下的.pdf文件
+doc/**/*.pdf
+```
+# 10. 注册 GitHub 账号
+(link::[10.注册GitHub账号](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=10))
+远程仓库 Working with Remotes
+
+GitHub是一个非常流行的代码托管平台，世界上超过百分之九十的开源项目都托管在GitHub上；
+- (link1::[注册账号演示](https://www.bilibili.com/video/BV1HM411377j?t=22.9&p=10))
+# 11. SSH 配置和克隆仓库
+(link::[11.SSH配置和克隆仓库](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=11))
+GitHub的使用和远程仓库操作 GitHub usage and Remote Repositories
+- (link1::[0.GitHub界面介绍](https://www.bilibili.com/video/BV1HM411377j?t=10.4&p=11))
+- (link1::[1.新建GitHub仓库](https://www.bilibili.com/video/BV1HM411377j?t=81.0&p=11))
+- (link1::[2.关联远程仓库](https://www.bilibili.com/video/BV1HM411377j?t=139.7&p=11))
+### 远程仓库地址的两种方式
+- `HTTPS` 开头的这种方式在我们把本地代码 push 到远程仓库的时候，需要验证用户名和密码
+- `git` 开头的这种方式在推送的时候不需要验证用户名和密码，但是需要在 GitHub 上添加SSH公钥的配置，这种也是比较推荐的方式，更加安全和方便，而且在2021年8月13日以后，`HTTPS` 的这种方式已经被GitHub 停止使用了（是用户名+密码 验证的方式被停用了，现在可以用`token` 或者 `web auth` 验证）
+ SSH(Secure Shell)是一种网络协议，用于安全地远程登录服务器或没备它提供了加密通信，防止数据在传输过程中被窃听。
+### 配置SSH密钥
+(link1::[4.配置SSH密钥](https://www.bilibili.com/video/BV1HM411377j?t=230.7&p=11))
+```powershell
+cd C:\Users\"用户名"
+ssh-keygen -t rsa -b 4096
+```
+- `-t` 指定协议为 RSA
+- `-b` 指定生成的大小为 4096
+回车之后，它提示我们需要输入密钥的文件名词【这里需要大家注意一下】：
+- 如果你是第一次使用这个命令的话，那么直接回车就行；它会在我们 `.SHH` 目录下生成一个 `id_rsa` 的密钥文件
+- 如果在之前已经配置过SSH密钥了，那这个时候最好不要直接回车，因为之前已经生成过`id_rsa` 密钥文件，如果再次回车它会覆盖掉我们之前的密钥文件且不可逆，所以需要输入一个新的文件名，然后回车；
+然后输入密码，这样我们的密钥生成操作就完成了；
+
+在 `.ssh` 文件中没有任何扩展名的是私钥文件【任何人都不能给】，扩展名为 `.pub` 为公钥文件，上传到 GitHub 上，复制公钥文件内容；回到 GitHub页面，点击右上角头像并点击 `setting`，再点击 `SSH and GPG keys`，将公钥内容粘贴到 `Key` 框中，`Title` 中输入任意名字，然后点击页面下方的 `Add SSH key` 就成功地将公钥添加到了 GitHub 上；
+
+回到命令行终端，
+- 如果你是第一次创建SSH密钥，而且在创建密钥的时候也没有修改过默认的文件名的话，SSH密钥的配置到这里就完成了；
+- 如果指定了一个新的文件名，那么还需要增加一步配置：我们需要创建一个 `config` 文件，将一下5行内容添加到文件里面
+```powershell
+tail -5 config
+```
+![[config配置.png]]
+这个配置文件的意思是，当我们访问 `github..com` 的时候，指定使用SSH下的test这个密钥；
+### 克隆仓库
+```Git
+git clone "SSH码"
+```
+- 需要创建密钥时候的密码，如果创建秘钥的时候没有输入密码，那么这里也直接回车即可。
+### 本地仓库与远程仓库
+![[推送和拉取.png|448x207]]
+本地仓库与远程仓库互相独立，修改文件不会同步，同步的过程需要使用到两个命令 `git pull` 和 `git push`；
+### 总结
+![[总结-克隆仓库.png|345x190]]
+# 12. 关联本地仓库和远程仓库
+(link::[12.关联本地仓库和远程仓库](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=12))
+```Git
+git remote add origin git@github.com:janven1/Software.git
+```
+- 添加一个远程仓库，这里的 `origin` 就是我们远程仓库的别名，一般别名都是这个，当然我们也可以自己指定一个其他名字
+
+```Git
+git remote -v
+```
+- 查看我们当前仓库所对应的远程仓库的别名和地址
+
+```Git
+git branch -M main
+```
+- 指定分支的名词为 `main`，默认就是 `main`。
+
+```Git
+git push -u origin main:mian 
+```
+- `-u`：upstream 的缩写，把我们本地仓库和别名为`origin`的远程仓库关联起来
+- `main:main`，就是本地仓库的 `main` 分支推送给远程仓库的 `main` 分支，如果本地分支的名称与远程分支的名称相同的话，我们就可以省略只写一个`main`就可以了；
+- 把我们本地的`main`分支和远程的`origin`仓库的`main`分支关联起来，回车之后它会提示我们输入密码即可；
+
+[GitHub在线编辑文件](https://www.bilibili.com/video/BV1HM411377j?t=175.5&p=12)
+GitHub的上的文件是可以直接在线编辑的，但是不是只能在线编辑；
+- 拉取远程仓库内容
+```Git
+git pull <远程仓库名> <远程分支名>：<本地分支名>
+```
+- 它的作用就是把远程仓库的指定分支拉取到本地再进行合并
+- 仓库的名称和分支的名称可以省略，如果省略的话默认就是拉取仓库别名为`origin`的`main`分支
+
+- **注意**：在执行完`git pull`之后，Git会自动为我们执行一次合并操作，如果远程仓库中的修改内容和本地仓库中的修改内容没有冲突的话，那么合并操作就会成功，否则合并操作就会由于冲突而失败，这个时候我们就需要手动来解决一下冲突；
+从远程仓库获取内容还可以使用`fetch`命令，它们的区别在于`fetch`命令只是获取远程仓库的修改但是并不会自动合并到本地仓库中，而是需要我们手动合并
+
+`git pull` 之后产生冲突的问题，以及如何使用`fetch`来获取远程仓库的修改内容，这些内容等到后面我们学习分支的时候再来详细的为大家拼解和演示；
+![[总结-远程仓库相关操作.png|409x194]]
+# 13. Gitee的使用和GitLab本地化部署
+(link::[13.Gitee的使用和GitLab本地化部署](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=13))
 
 
+
+
+
+
+
+
+
+
+
+
+
+```Git
+git@github.com:janven1/Software.git
+```
+
+
+```powershell
+C:\Users\dell\.shh
+```
 
 
 
