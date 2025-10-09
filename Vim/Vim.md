@@ -1,7 +1,6 @@
 ---
-date: 2025-10-07
+date_create: 2025-10-07
 type: Tutorial
-sort: Vim
 source:
 status: updating
 ---
