@@ -1,5 +1,6 @@
 ---
 date_create: 2025-10-08
+type: Software
 ---
 
 ### 基本递归查找（推荐）

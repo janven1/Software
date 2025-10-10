@@ -1,6 +1,6 @@
 ---
 date_create: 2025-10-06
-type: Tutorial
+type: Software
 source: video
 status: updating
 ---

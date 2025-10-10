@@ -1,6 +1,6 @@
 ---
 date_create: 2025-05-27
-type: Tutorial
+type: Software
 source: document
 ---
 # 前言：Latex介绍

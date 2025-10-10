@@ -20,13 +20,21 @@ status: updating
 |    1.4    | [注释](https://www.bilibili.com/video/BV1Hj411E7ra?t=1258.4)                                                                                          |  ❌   |
 |    2.1    | [Templates](https://www.bilibili.com/video/BV1c64y1W7c2?t=52.0)                                                                                     |  ❌   |
 |    3.1    | [Obsidian流程图](https://zhuanlan.zhihu.com/p/1936544558864398155)                                                                                     |  ⏳   |
-|    3.2    | [Templater](https://www.bilibili.com/video/BV1c64y1W7c2?t=480.9)                                                                                    |      |
+|    3.2    | [Templater](https://www.bilibili.com/video/BV1c64y1W7c2?t=480.9)                                                                                    |  ⏳   |
 |  3.2.1.1  | [`tp.file`](https://www.bilibili.com/video/BV1c64y1W7c2?t=627.9)                                                                                    |  ✅   |
 |  3.2.1.2  | [`tp.date`](https://www.bilibili.com/video/BV1c64y1W7c2?t=689.9)                                                                                    |  ✅   |
 |  3.2.1.3  | [`tp.system`](https://www.bilibili.com/video/BV1c64y1W7c2?t=724.5)                                                                                  |  ✅   |
 |  3.2.1.4  | [实际演示1-模板转笔记](https://www.bilibili.com/video/BV1c64y1W7c2?t=822)                                                                                    |  ✅   |
 |  3.2.1.5  | [实际演示2-应用模板](https://www.bilibili.com/video/BV1c64y1W7c2?t=1068.4)                                                                                  |  ✅   |
 |  3.2.1.6  | [实际演示3-文件夹指定模板](https://www.bilibili.com/video/BV1c64y1W7c2?t=1178.6)<br>                                                                           |  ✅   |
+|   3.3.2   | [dataview 进阶](https://www.bilibili.com/video/BV1ewdnYtERW/)                                                                                         |  ⏳   |
+|    3.4    | [QuickAdd](https://www.bilibili.com/video/BV1Zi4y1v7st/)                                                                                            |  ✅   |
+|   3.4.1   | [capture](https://www.bilibili.com/video/BV1Zi4y1v7st?t=112.5)                                                                                      | ✅✏️  |
+|   3.4.2   | [template](https://www.bilibili.com/video/BV1Zi4y1v7st?t=661.7)                                                                                     | ✅✏️  |
+|   3.4.3   | [macro](https://www.bilibili.com/video/BV1Zi4y1v7st?t=1015.0)                                                                                       |  ❓   |
+|   3.4.4   | [multi](https://www.bilibili.com/video/BV1Zi4y1v7st?t=1472.5)                                                                                       |  ✅   |
+|    4.1    |                                                                                                                                                     |      |
+
 # 0. 相关链接
 # 1. 基础语法
 # 2. 核心插件
@@ -81,10 +89,31 @@ status: updating
 
 #### 2. Capture 随时记录想法
 [[Capture]]
-
+- [ ] 问题
+- [ ] 备忘录
 
 #### 3. 插入脚注
 [[Insert Callouts]]
+
+## 4. QuickAdd
+### 1. capture
+
+### 2. template
+
+### 3. macro
+
+### 4. multi
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -94,3 +123,4 @@ status: updating
 
 
 .
+
