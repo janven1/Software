@@ -446,12 +446,18 @@ git pull <远程仓库名> <远程分支名>：<本地分支名>
 ![[总结-远程仓库相关操作.png|409x194]]
 # 13. Gitee的使用和GitLab本地化部署
 (link::[13.Gitee的使用和GitLab本地化部署](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=13))
+【已看、未记】
 
+# 14. GUI 工具
+[14.GUI工具](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=14)
 
+# 15. VSCode 使用介绍
+[15.在VSCode中使用Git](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=15)
 
+# 16. 分支简介和基本操作
+[16.分支简介和基本操作](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.player.switch&p=16)
 
-
-
+分支 Branch，是 Git 中一个非常重要的功能，我们可以把它看作是代码库中的不同版本，可以独立存在并且有自己的提交记录，就像是一棵树的不同枝干
 
 
 
