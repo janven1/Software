@@ -529,6 +529,39 @@ git merge --abort
 - **终止合并过程**；
 # 18. 回退和 `rebase`
 [18.回退和rebase](https://www.bilibili.com/video/BV1HM411377j?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.player.switch&p=18)
+另外一个方法 `rebase` 变基，可以将不同分支的修数内容整合到一起
+```Git
+git rebase <分支名>
+```
+### 0. 命令别名设置
+(link1::[命令别名](https://www.bilibili.com/video/BV1HM411377j?t=278.8&p=18))
+```Git
+alias <别名>= <命令>
+```
+- 使用 `alias` 命令来将长命令定义成一个别名
+
+
+
+### 1. `rebase` 操作结果
+任意分支上执行 `rebase` 操作
+![[0.original-status.png|199x166]]
+1. 在 `dev` 分支上执行 `rebase` 操作：
+```Git
+git switch dev
+git rebase main
+```
+![[1.dev-rebase.png|96x223]]
+2. 在 `main` 分支上执行 `rebase` 操作：
+```Git
+git switch main
+git rebase dev
+```
+![[2.1main-rebase.png|145x181]]
+
+![[2.2mian-rebase.png|134x249]]
+### 2. `rebase` 原理解释
+在Git中每个分支都有一个指针，指向当前分支的最新提交记录，而在执行 `rebase` 操作的时候，Git会先找到当前分支和目标分支的共同祖先，再把当前分支上从共同祖先到最新提交记录的所有提交都移动到自标分支的最新提交后面；
+简单来说就是像嫁接移植一样，从分叉点把整个分支都移动到目标分支的最新提交记录后面；
 
 
 
