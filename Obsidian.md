@@ -13,6 +13,8 @@ status: updating
 | 0.3 | [三方插件下载](https://airtable.com/appErQxa3n8SnyUdO/shrdmp10Lxmf5Wmgl/tblJqnWpcKURTjysX) |      |
 
 > [!abstract]- 1.不常使用的基础格式
+
+
 |   序号    | 功能                                                               | 完成进度 |
 | :-----: | ---------------------------------------------------------------- | :--: |
 | ==1.1== | [链接到具体的一句话](https://www.bilibili.com/video/BV1Hj411E7ra?t=316.9) |  ❌   |
@@ -22,6 +24,7 @@ status: updating
 | ==1.5== | [标注](https://www.bilibili.com/video/BV1Hj411E7ra?t=1078.3)       |  ❌   |
 |   1.6   | [标注折叠](https://www.bilibili.com/video/BV1Hj411E7ra?t=1227.6)     |  ❌   |
 | ==1.7== | [注释](https://www.bilibili.com/video/BV1Hj411E7ra?t=1258.4)       |  ❌   |
+|   1.8   | 链接到电脑的某一个文件或笔记                                                   |  ✅   |
 
 > [!example]- 2.核心插件
 | 序号  | 功能                                                              | 完成进度 |
@@ -63,6 +66,8 @@ status: updating
 
 # 0. 相关链接
 # 1. 基础语法
+## 8. 链接到电脑的某一个文件或笔记
+使用链接格式为 `[<name>](file:<file/folder-path>)`；
 # 2. 核心插件
 # 3. 第三方插件
 ## 2. Templater
