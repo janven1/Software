@@ -13,8 +13,6 @@ status: updating
 | 0.3 | [三方插件下载](https://airtable.com/appErQxa3n8SnyUdO/shrdmp10Lxmf5Wmgl/tblJqnWpcKURTjysX) |      |
 
 > [!abstract]- 1.不常使用的基础格式
-
-
 |   序号    | 功能                                                               | 完成进度 |
 | :-----: | ---------------------------------------------------------------- | :--: |
 | ==1.1== | [链接到具体的一句话](https://www.bilibili.com/video/BV1Hj411E7ra?t=316.9) |  ❌   |
