@@ -81,6 +81,7 @@ status: updating
 |   4.2   | [日记模板](https://www.bilibili.com/video/BV1fT4m1U7JS?vd_source=aef73766b941d8e52cb9a97d24ea42a2) |      |
 | ==4.3== | [双向链接情况查询](https://www.bilibili.com/video/BV1ZZ421b7Db?t=807.8)                                |      |
 
+[Vim 选手的全键盘 Obsidian 工作流](https://www.bilibili.com/video/BV1M94y197vW/?spm_id_from=333.337.search-card.all.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2)
 # 0. 相关链接
 # 1. Markdown 语法
 ## 8. 链接到电脑的某一个文件或笔记
@@ -178,6 +179,7 @@ console.log(sum); // 打印总和
 >这是第二段引用文本的第1行
 >这是第二段引用文本的第2行
 ## 15. 注释
+- 其中通过快捷键 `Ctrl` + `?` 可以生成注释符号 `%%  %%`
 **Markdown** 的 **注释** 和 **HMTL** 一样，注释的内容在 **渲染界面** **不可见** （部分编辑器可见)
 - **注释 的格式：**
   - `<!-- 这里是注释的内容 -->`
