@@ -5,14 +5,16 @@ source:
 status: updating
 ---
 
-| 序号  | 类型  |                                                                         居中                                                                         | 形式  |
-| :-: | :-: | :------------------------------------------------------------------------------------------------------------------------------------------------: | :-: |
-| 00  | 科普  | [这可能是世界上最简短的悼词](https://www.bilibili.com/video/BV1X8411i719/?spm_id_from=333.337.search-card.all.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2) | 视频  |
-| 01  | 教程  |                                             [最强Vim新手指南](https://www.bilibili.com/video/BV1UQ4y1z7q5/)                                              | 视频  |
-| 02  | 教程  |                                           [Vim通俗易懂教程](https://zhuanlan.zhihu.com/p/1961387640831075280)                                            | 视频  |
-| 03  | 教程  |                                      [VIM 中文用户手册: 目录](https://yianwillis.github.io/vimcdoc/doc/usr_toc.html)                                       | 网页  |
-| 04  | 文档  |                                                                 [[0. VimDocument]]                                                                 | pdf |
-| 05  | 教程  |                                                [不止Vim](https://www.bilibili.com/video/BV1ZGJdznE9b)                                                | 视频  |
+| 序号  | 类型  |                                                                                                                    居中                                                                                                                     | 形式  | 评价  |
+| :-: | :-: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-: | :-: |
+| 00  | 科普  |                                            [这可能是世界上最简短的悼词](https://www.bilibili.com/video/BV1X8411i719/?spm_id_from=333.337.search-card.all.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2)                                             | 视频  |     |
+| 01  | 教程  |                                                                                         [最强Vim新手指南](https://www.bilibili.com/video/BV1UQ4y1z7q5/)                                                                                         | 视频  | ⭐⭐  |
+| 02  | 教程  |                                                                                       [Vim通俗易懂教程](https://zhuanlan.zhihu.com/p/1961387640831075280)                                                                                       | 视频  |     |
+| 03  | 教程  |                                                                                  [VIM 中文用户手册: 目录](https://yianwillis.github.io/vimcdoc/doc/usr_toc.html)                                                                                  | 网页  |     |
+| 04  | 文档  |                                                                                                            [[0. VimDocument]]                                                                                                             | pdf |     |
+| 05  | 教程  |                                                                                           [不止Vim](https://www.bilibili.com/video/BV1ZGJdznE9b)                                                                                            | 视频  |     |
+| 06  | 演示  | [上古神器Vim：从恶言相向到爱不释手 - 终极Vim教程01](https://www.bilibili.com/video/BV164411P7tw?spm_id_from=333.788.recommend_more_video.-1&trackid=web_related_0.router-related-2206146-7vfnq.1761143011961.545&vd_source=aef73766b941d8e52cb9a97d24ea42a2) | 视频  |  ⏳  |
+| 07  | 教程  |                                        [Vim 党必看! CapsLock 一键双用：](https://www.bilibili.com/video/BV1oVWqzrEya/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2)                                         | 视频  |  ⏳  |
 1988毕业的Bram从荷兰代尔夫特理工大学毕业不久
 ![[01VimHistory.png|324x244]]
 
