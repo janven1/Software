@@ -75,6 +75,7 @@ status: updating
 |               3.6.0                | [dataview知乎](https://zhuanlan.zhihu.com/p/393550306)                      |      |
 |               3.6.1                | [dataview0](https://blacksmithgu.github.io/obsidian-dataview/)            |      |
 |               3.6.2                | [dataview 进阶](https://www.bilibili.com/video/BV1ewdnYtERW/)               |  ⏳   |
+|                3.7                 | [Hover Editor](https://www.bilibili.com/video/BV1UL4y1j7iU/)              |      |
 
 > [!tip]- 4.借鉴案列
 |   序号    | 功能                                                                                             | 完成进度 |
@@ -328,6 +329,11 @@ Obsidian里的
 ### 3. macro
 
 ### 4. multi
+
+## 7. Hover Editor
+**应用场景**：多个笔记的同时修改；
+### 01问题
+- [ ] 2025-10-29 17:13: 悬浮窗口只能在obsidian界面中不能移动到外部；
 
 # 4. 应用
 ## 1. 任务管理
