@@ -6,13 +6,14 @@ status: updating
 ---
 
 > [!info]- 0.相关链接
-| 序号  | 功能                                                                                   | 完成进度 |
-| :-: | ------------------------------------------------------------------------------------ | :--: |
-| 0.1 | [Obsidian学习文档](https://coffeetea.top/zh/)                                            |      |
-| 0.2 | [PKMer](https://pkmer.cn/index_old/)                                                 |      |
-| 0.3 | [三方插件下载](https://airtable.com/appErQxa3n8SnyUdO/shrdmp10Lxmf5Wmgl/tblJqnWpcKURTjysX) |      |
-| 0.4 | [Obsidian 中文论坛](https://forum-zh.obsidian.md/)                                       |      |
-|0.5|[PKMer 导航](https://pkmer.cn/link/)| |
+| 序号  | 功能                                                                                   | 评价  |
+| :-: | ------------------------------------------------------------------------------------ | :-: |
+| 0.0 | [Home - Obsidian Help](https://help.obsidian.md/)                                    | ⭐⭐  |
+| 0.1 | [Obsidian学习文档](https://coffeetea.top/zh/)                                            |     |
+| 0.2 | [PKMer](https://pkmer.cn/index_old/)                                                 |  ⭐  |
+| 0.3 | [三方插件下载](https://airtable.com/appErQxa3n8SnyUdO/shrdmp10Lxmf5Wmgl/tblJqnWpcKURTjysX) |  ⭐  |
+| 0.4 | [Obsidian 中文论坛](https://forum-zh.obsidian.md/)                                       |     |
+| 0.5 | [PKMer 导航](https://pkmer.cn/link/)                                                   |     |
 
 > [!abstract]- 1.不常使用的Markdown
 |    序号    | 功能                                                               | 教程                                                                                              | 完成进度 |

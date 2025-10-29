@@ -19,7 +19,7 @@ status: updating
 1988毕业的Bram从荷兰代尔夫特理工大学毕业不久
 ![[01VimHistory.png|324x244]]
 
-
+[Vim 从入门到精通](https://wsdjeg.net/vim-galore-zh-cn/)
 
 
 
