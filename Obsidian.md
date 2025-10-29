@@ -16,10 +16,12 @@ status: updating
 | 0.5 | [PKMer 导航](https://pkmer.cn/link/)                                                   |     |
 
 > [!abstract]- 1.不常使用的Markdown
+
+
 |    序号    | 功能                                                               | 教程                                                                                              | 完成进度 |
 | :------: | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | :--: |
 | ==1.01== | [链接到具体的一句话](https://www.bilibili.com/video/BV1Hj411E7ra?t=316.9) |                                                                                                 |  ❌   |
-|  1..02   | [嵌入笔记](https://www.bilibili.com/video/BV1Hj411E7ra?t=406.2)      |                                                                                                 |  ❌   |
+|   1.02   | [嵌入笔记](https://www.bilibili.com/video/BV1Hj411E7ra?t=406.2)      |                                                                                                 |  ❌   |
 | ==1.03== | [斜体](https://www.bilibili.com/video/BV1Hj411E7ra?t=671.5)        |                                                                                                 |  ❌   |
 |   1.04   | [删除线](https://www.bilibili.com/video/BV1Hj411E7ra?t=699.9)       |                                                                                                 |  ❌   |
 | ==1.05== | [标注](https://www.bilibili.com/video/BV1Hj411E7ra?t=1078.3)       |                                                                                                 |  ❌   |
@@ -43,6 +45,7 @@ status: updating
 |   1.23   | [[MarkDown超级教程#11. 拓展文本格式标记\|拓展文本]]                              |                                                                                                 |  ⭐   |
 |   1.24   | [[MarkDown超级教程#18. 标签 (Tag)\|标签]]                                |                                                                                                 |  ⭐   |
 |   1.26   |                                                                  | [[MarkDown超级教程#19. 避免标识符的滥用\|标识规范]]                                                             |  ⏳   |
+|   1.27   | 将电脑的某一个文件或笔记在obsidian的外部链接打开                                     |                                                                                                 |  ✅   |
 
 > [!example]- 2.核心插件
 | 序号  | 功能                                                              | 完成进度 |
@@ -87,7 +90,8 @@ status: updating
 # 1. Markdown 语法
 ## 8. 链接到电脑的某一个文件或笔记
 使用链接格式为 `[<name>](file:<file/folder-path>)`；
-
+## 27外部链接-使用VsCode打开文件(夹)
+使用链接的格式为 `[<name>](vscode://file/<file/folder-path>)`；
 
 ## 11. 引用
 - **引用 的格式：**
