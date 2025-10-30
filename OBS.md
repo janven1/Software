@@ -4,9 +4,21 @@ type: Software
 status: unstarted
 source:
 ---
-[最强的录屏和直播软件：OBS全面教学！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1cS8gzRE7R/?spm_id_from=333.337.search-card.all.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2)
+[最强的录屏和直播软件：OBS全面教学！](https://www.bilibili.com/video/BV1cS8gzRE7R/)
+
+| 序号  |                             功能                              | 介绍  | 评价  |
+| :-: | :---------------------------------------------------------: | --- | :-: |
+| 00  | [软件应用场景](https://www.bilibili.com/video/BV1cS8gzRE7R?t=2.7) |     |     |
+|     |                                                             |     |     |
+|     |                                                             |     |     |
+|     |                                                             |     |     |
 
 
-
+# 00
+|   概念   |   1   |  2  |  3  |  4  |
+| :----: | :---: | :-: | :-: | :-: |
+| 帧率/FPS |  30   | 60  | 120 |     |
+|   性能   | 1080P | 2K  | 3K  |     |
+|   场景   |  游戏   | 教学  | 直播  | 相机  |
 
 
