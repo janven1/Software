@@ -7,14 +7,16 @@ sort: Excel
 ---
 # 00目录
 
-| 序号  |                                                                      课程                                                                       | 状态  | 评分  |
-| :-: | :-------------------------------------------------------------------------------------------------------------------------------------------: | :-: | :-: |
-| 00  |                        [先导课](https://www.bilibili.com/video/BV1Gq4y1M716/?vd_source=aef73766b941d8e52cb9a97d24ea42a2)                         |  ❌  |     |
-| 01  |   [学习导论](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=2&spm_id_from=333.788.videopod.episodes)    |  ❌  |     |
-| 02  | [EXCEL版本选择](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=3) |  ✅  | ⭐⭐  |
-| 03  |   [快速填充](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=4)    |  ✅  |  ⭐  |
-| 04  |   [快速分析](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=5)    |  ⏳  |     |
-| 05  |                                                                                                                                               |     |     |
+|   序号   |                                                                      课程                                                                       | 状态  | 评分  |
+| :----: | :-------------------------------------------------------------------------------------------------------------------------------------------: | :-: | :-: |
+|   00   |                        [先导课](https://www.bilibili.com/video/BV1Gq4y1M716/?vd_source=aef73766b941d8e52cb9a97d24ea42a2)                         |  ❌  |     |
+|   01   |   [学习导论](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=2&spm_id_from=333.788.videopod.episodes)    |  ❌  |     |
+|   02   | [EXCEL版本选择](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=3) |  ✅  | ⭐⭐  |
+|   03   |   [快速填充](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=4)    |  ✅  |  ⭐  |
+|   04   |   [快速分析](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=5)    |  ✅  | ⭐⭐  |
+|   05   |                    [EXCEL数据录入](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=6)                    |  ✅  |  ⭐  |
+| 05plus |                     [数据收集技巧](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=7)                      |  ✅  | ⭐⭐  |
+|   06   |                     [网络获取数据](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&p=8)                      |     |     |
 # 02Excel 版本选择
 | 序号  |                                           内容                                            | 评价  | 状态  |
 | :-: | :-------------------------------------------------------------------------------------: | :-: | :-: |
@@ -93,7 +95,7 @@ Microsoft 365 可以在多个设备上进行使用，它是必须按年或者月
 | 07  |   [02拆分重组](https://www.bilibili.com/video/BV1Gq4y1M716?t=353.0&p=4)    | <font color="#ff0000">快速填充要注意将数据的表格是有连接的</font>，<br>如果中间有空列的话，就无法快速填充发生【报错】；<br>可以通过表头进行连接； | ⭐⭐  |
 | 08  |   [03数据拆分](https://www.bilibili.com/video/BV1Gq4y1M716?t=511.5&p=4)    |                                                                                             |  ✅  |
 | 09  |   [身份证信息提取](https://www.bilibili.com/video/BV1Gq4y1M716?t=602.2&p=4)   | 身份证号在单元格中对齐方式不同：<br>单元格格式不同——数字、文字                                                          |  ⭐  |
-# 03快速分析
+# 04快速分析
 | 序号  |                                   功能                                    | 介绍                                                                                                                 | 评价  |   作用   |  后续  |
 | :-: | :---------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------ | :-: | :----: | :--: |
 | 01  |    [快速分析图表](https://www.bilibili.com/video/BV1Gq4y1M716?t=34.1&p=5)     | 快捷键： `Ctrl+Q`<br>功能很多：<br>格式化、汇总、表格、迷你图                                                                            | ⭐⭐  |        |      |
@@ -109,7 +111,57 @@ Microsoft 365 可以在多个设备上进行使用，它是必须按年或者月
 | 11  |  [05迷你图-00介绍](https://www.bilibili.com/video/BV1Gq4y1M716?t=408.2&p=5)  | 迷你图，放置在单元格中；占地小；                                                                                                   | ⭐⭐  |        |      |
 | 12  |   [列宽的统一修改](https://www.bilibili.com/video/BV1Gq4y1M716?t=435.7&p=5)    | 选中你想要修改的列，然后对它进行拖拽；<br>整个所有的列都会变为相同的宽度；                                                                            | ⭐⭐  |        |      |
 | 13  | [05迷你图-01工具栏](https://www.bilibili.com/video/BV1Gq4y1M716?t=463.4&p=5)  | `插入`--> `图表` --> `迷你图`<br>快速分析打开<br>工具栏中存在迷你图的各种样式进行调整——<br>01样式; 02最低/高点; 03标记颜色;04坐标轴编辑;05迷你图类型—柱形、盈亏、折线;06编辑数据; | ⭐⭐  |        |      |
-## 
+# 05Excel数据录入
+| 序号  |                                    功能                                     | 介绍                                                                | 评价  | 作用  |
+| :-: | :-----------------------------------------------------------------------: | ----------------------------------------------------------------- | :-: | :-: |
+| 01  |    [规范录入数据讲解](https://www.bilibili.com/video/BV1Gq4y1M716?t=45.7&p=6)     | 推荐使用横向录入，以数据条的形式录入，<br>保证一条数据的完整性；<br>                            |     |     |
+| 02  |    [快捷键输入操作1](https://www.bilibili.com/video/BV1Gq4y1M716?t=211.8&p=6)    | `tab` 横向跳转到一个单元格 ，<br>再次 `enter` 回到下一行的开头；                        |     |     |
+| 03  |    [快捷键输入操作2](https://www.bilibili.com/video/BV1Gq4y1M716?t=321.9&p=6)    | `shift + tab` 横向回到左边的单元格<br>`shift + enter` 纵向回到上一行               |     |     |
+| 04  |     [时间数据输入](https://www.bilibili.com/video/BV1Gq4y1M716?t=457.3&p=6)     | 正确输入方式 `YYYY-MM-DD` 或者 `YYYY/MM/DD`                               |     |     |
+| 05  |  [时间正确格式验证1-筛选](https://www.bilibili.com/video/BV1Gq4y1M716?t=509.3&p=6)  |                                                                   |     |     |
+| 06  | [时间正确格式验证2-单元格式](https://www.bilibili.com/video/BV1Gq4y1M716?t=582.9&p=6) |                                                                   |     |     |
+| 07  |    [时间输入快捷键](https://www.bilibili.com/video/BV1Gq4y1M716?t=626.9&p=6)     | `ctrl+;` 日期, `ctrl+shift+;` 时间<br>函数 `now()`                      |     |     |
+| 08  |    [百分符号的添加](https://www.bilibili.com/video/BV1Gq4y1M716?t=706.5&p=6)     | `开始`--> `常规`--> `百分比` <br>或者直接点击下方的 `百分比符号`                       |  ⭐  |     |
+| 09  |   [百分符号输入错误修改](https://www.bilibili.com/video/BV1Gq4y1M716?t=720.0&p=6)   | 1.输入小数，再添加单元格格式<br>2.清除数据修改该列的单元格格式                               |     |     |
+| 10  |      [分数录入](https://www.bilibili.com/video/BV1Gq4y1M716?t=796.8&p=6)      | `0` + `空格` + `分数` + `enter`；<br>输入分数，点击单元格式将单元格式修改为分数             |     |     |
+| 11  |  [身份证/过长数字录入1](https://www.bilibili.com/video/BV1Gq4y1M716?t=826.6&p=6)   | 数字格式下的精度是15位；如果超出用0替代                                             |     |     |
+| 12  |    [过长数字录入2](https://www.bilibili.com/video/BV1Gq4y1M716?t=894.2&p=6)     | 调成文本：1.提前设置单元格式将其设置为文本<br>：单元格左上角出现小三角，代表文本类数字<br>在数字最前面输入英文的 `‘` |     |     |
+| 13  |      [原位填充](https://www.bilibili.com/video/BV1Gq4y1M716?t=990.4&p=6)      | 如果输入 `enter` 后，光标不动;可以使用 `ctrl+enter`                             |     |     |
+| 14  |   [应用场景-原位填充](https://www.bilibili.com/video/BV1Gq4y1M716?t=1055.6&p=6)   | 选中指定区域（可以是表格或是几个单元格）输入重复内容，再次使用原为填充，内容会填充其中                       | ⭐⭐  |     |
+# 05plus数据收集
+
+| 序号  |                                   功能                                   | 介绍                                                                                                 | 评价  |    作用    |
+| :-: | :--------------------------------------------------------------------: | -------------------------------------------------------------------------------------------------- | :-: | :------: |
+| 00  |     [背景介绍](https://www.bilibili.com/video/BV1Gq4y1M716?t=5.4&p=7)      | 获取数据(最耗费时间)的行政/运营常见问题：<br>分发数据表，收集数据表，合并数据表，<br>检查异常数据，自己处理数据报错；                                   |  ⭐  | 提升数据收集效率 |
+| 00  |    [数据收集推荐](https://www.bilibili.com/video/BV1Gq4y1M716?t=74.2&p=7)    | 在线协作工具收集数据；<br>Excel在线表格协作功能在国内无法正常使用；                                                             |  ✅  |          |
+| 01  |    [简道云演示](https://www.bilibili.com/video/BV1Gq4y1M716?t=122.6&p=7)    | **跳过**                                                                                             |  ❌  |          |
+| 02  |   [表头模板及示例](https://www.bilibili.com/video/BV1Gq4y1M716?t=350.5&p=7)   | 提供一个表头和示例；后续还有3个技巧；                                                                                |     |          |
+| 03  |   [01输入提示](https://www.bilibili.com/video/BV1Gq4y1M716?t=383.1&p=7)    | 当我们点击某个单元格的时候，<br>会出现详细的提示文本；<br>选中单元格，`数据`-->`数据验证`-->`输入信息`<br>勾选`选定单元格时显示详细信息` 在`标题`输入提示        | ⭐⭐  |          |
+| 04  |   [02下拉列表](https://www.bilibili.com/video/BV1Gq4y1M716?t=445.1&p=7)    | 场景：有些内容是固定有限的选项；<br>选中单元格，`数据`-->`数据验证`-->`设置`<br>-->`验证条件`-->`允许->序列`-->`来源`填写相应选项，使用英文`,`隔开不同选项； | ⭐⭐  |          |
+| 05  | [03数据验证及出错警告](https://www.bilibili.com/video/BV1Gq4y1M716?t=501.4&p=7) | 场景：身份证少输位数；<br>选中单元格，`数据`-->`数据验证`-->`设置`<br>-->`验证条件`-->`允许->文本长度`<br>`出错警告`栏中输入相关信息，提示出错原因；      | ⭐⭐  |          |
+| 06  |    [数据验证选项](ttps://www.bilibili.com/video/BV1Gq4y1M716?t=586.4&p=7)    | 限制输入的格式，例如:时间、文本、日期、整数等等                                                                           |  ⭐  |          |
+| 07  |   [合并表格场景](https://www.bilibili.com/video/BV1Gq4y1M716?t=619.5&p=7)    | 场景介绍                                                                                               |  ❌  |          |
+| 08  |   [多表合并技巧](https://www.bilibili.com/video/BV1Gq4y1M716?t=645.6&p=7)    | 1.把所有表格放在同一个文件夹下，再新建空白表格<br>2.`数据`-->`获取数据`-->`从文件->从文件夹`--><br>`组合->合并和加载`                        |     |          |
+| 09  |   [多表合并要点](https://www.bilibili.com/video/BV1Gq4y1M716?t=711.4&p=7)    | 1.文件在同一文件夹，相同表头；<br>2.微软Excel2016及以上版本                                                             |  ✅  |          |
+|     |                                                                        |                                                                                                    |     |          |
+# 06网络获取数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
