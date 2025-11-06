@@ -17,9 +17,9 @@ source:
 | 09  |    [03卸载和备份](https://www.bilibili.com/video/BV1tW42197za?t=305.0)    | `wsl --unregister <subsystem_name>`卸载发行版<br>`wsl --export <subsystem_name> <file_name>.tar`备份发行版<br>导入发行版：首先终端进入进入到安装的目录，<br>使用命令`wsl --import <subsystem_name> <install_path> <export_file_path>` |     |
 | 10  |  [wsl2的本质补充说明](https://www.bilibili.com/video/BV1tW42197za?t=372.6)  | 导入备份文件后显示的是`Hyperv`镜像文件，<br>wsl中的Linux子系统的一切文件都存在这个镜像文件里面；                                                                                                                                         |     |
 | 11  |    [04文件共享](https://www.bilibili.com/video/BV1tW42197za?t=389.2)     | 待整理                                                                                                                                                                                                |  ⏳  |
-| 12  |     [WSLg](https://www.bilibili.com/video/BV1tW42197za?t=537.5)      |                                                                                                                                                                                                    |  ⏳  |
-| 13  |                                  ⏳                                   |                                                                                                                                                                                                    |     |
-| 14  |                                                                      |                                                                                                                                                                                                    |     |
+| 12  |     [WSLg](https://www.bilibili.com/video/BV1tW42197za?t=537.5)      | WSLG的运作方式是利用了RDP远程桌面协议<br>显卡直通 `nvidia-smi`                                                                                                                                                        |     |
+| 13  |   [kali专属KEX](https://www.bilibili.com/video/BV1tW42197za?t=600.7)   |                                                                                                                                                                                                    |  ⏳  |
+| 14  |                                  ⏳                                   |                                                                                                                                                                                                    |     |
 
 
 
