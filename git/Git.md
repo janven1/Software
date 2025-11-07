@@ -386,7 +386,7 @@ GitHub的使用和远程仓库操作 GitHub usage and Remote Repositories
 ### 配置SSH密钥
 (link1::[4.配置SSH密钥](https://www.bilibili.com/video/BV1HM411377j?t=230.7&p=11))
 ```powershell
-C:\Users\dell\.shh
+C:\Users\dell\.ssh
 ```
 
 ```powershell
@@ -481,13 +481,13 @@ git pull <远程仓库名> <远程分支名>：<本地分支名>
 - **分支的优点** 就是能够提高团队协作的效率，减少冲突和错误的影响，让团队中的每个人部能够独立开发和测试
 ### 2. branch 代码
 ```Git
-git brach
+git branch
 ```
 - 查看当前仓库的所有分支，在命令行的回显中前面带有星号 `*` 的就是我们目前所处在的分支
 git 的早期版本默认分支的名字是 `master` ，但是由于这个词带有种族歧视的含义，后来版本修改为 `main`
 【弹幕补充】`master-slave` 是在计算机（特别是分布式）领域特别常用的词，表示主从关系。但是在几年前国外搞运动，认为这个slave存在歧视，因此从那时起逐渐废除了 `master-slave`
 ```Git
-git brach <分支名>
+git branch <分支名>
 git checkout <分支名>
 git switch <分支名>
 ```
