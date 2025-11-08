@@ -15,4 +15,10 @@ vim主题配置地址为 `C/users/dell/.vim`
 |     |                                                                   |                     |
 |     |                                                                   |                     |
 
+| 序号  |                                 文件                                  | 评价  |
+| :-: | :-----------------------------------------------------------------: | :-: |
+| 01  |   [Obsidian Vim增强插件](https://www.bilibili.com/video/BV1rG4y1t7Gc)   |     |
+| 02  | [jump to link](https://github.com/mrjackphil/obsidian-jump-to-link) |     |
+| 03  |                                                                     |     |
+
 
