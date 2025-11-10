@@ -9,7 +9,7 @@ source:
 | :-: | :----------------------------------------------------------------------------------------------------------------------------------------------------: | :-: |
 | 11  |       [条件格式](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=13)        |  ⭐  |
 | 12  |    [定位，快速定位目标数值](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=14)    | ⭐⭐  |
-| 13  |        [视图](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=15)         | ✏️  |
+| 13  |        [视图](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=15)         | ⭐⭐  |
 | 14  |     [Excel表格打印](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=16)     |  ❌  |
 | 15  |      [了解函数本质](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=17)       | ✏️  |
 | 16  |    [Count系列统计函数](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=18)    | ✏️  |
@@ -69,25 +69,19 @@ source:
 
 # 15了解函数本质
 
-| 序号  | 功能  | 介绍  | 评价  |
-| :-: | :-: | --- | :-: |
-| 01  |     |     |     |
-| 02  |     |     |     |
-| 03  |     |     |     |
-| 04  |     |     |     |
-| 05  |     |     |     |
-| 06  |     |     |     |
-| 07  |     |     |     |
-| 08  |     |     |     |
-| 09  |     |     |     |
-| 10  |     |     |     |
-| 11  |     |     |     |
-| 12  |     |     |     |
-| 13  |     |     |     |
-| 14  |     |     |     |
-| 15  |     |     |     |
-| 16  |     |     |     |
-|     |     |     |     |
+| 序号  |                                  功能                                   | 介绍                                                                                         | 评价  |
+| :-: | :-------------------------------------------------------------------: | ------------------------------------------------------------------------------------------ | :-: |
+| 01  |   [函数与公式的区别](https://www.bilibili.com/video/BV1Gq4y1M716?t=60&p=17)   | 公式以等号开头<br>函数是定义好的公式                                                                       |     |
+| 02  |   [函数位置](https://www.bilibili.com/video/BV1Gq4y1M716?t=185.5&p=17)    | `开始->自动求和=>其他函数`<br>`公式`                                                                   |     |
+| 03  |   [求和快捷键](https://www.bilibili.com/video/BV1Gq4y1M716?t=253.0&p=17)   | `alt+=`                                                                                    |     |
+| 04  |  [输入函数方法](https://www.bilibili.com/video/BV1Gq4y1M716?t=290.1&p=17)   | 直接输入函数，直接使用`tab`<br>如果不熟悉的话，点击编辑栏的函数图标<br>进入参数面板，字符的双引号会自动添加<br>同时可以使用快捷键 `ctrl+A`快速进入参数面板 |     |
+| 05  |  [绝对/相对引用](https://www.bilibili.com/video/BV1Gq4y1M716?t=593.9&p=17)  | `$`                                                                                        |     |
+| 06  | [添加美元符号快捷键](https://www.bilibili.com/video/BV1Gq4y1M716?t=829.2&p=17) | `F4`                                                                                       |     |
+| 07  | [应用-九九乘法表](https://www.bilibili.com/video/BV1Gq4y1M716?t=855.3&p=17)  |                                                                                            |     |
+# 16Count系列统计函数
+| 序号  |                                  功能                                   | 介绍                                                                                         | 评价  |
+| :-: | :-------------------------------------------------------------------: | ------------------------------------------------------------------------------------------ | :-: |
+|
 
 
 
