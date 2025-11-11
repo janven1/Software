@@ -5,18 +5,18 @@ status: unstarted
 source:
 ---
 # 00目录
-| 序号  |                                                                           课程                                                                           | 状态  |
-| :-: | :----------------------------------------------------------------------------------------------------------------------------------------------------: | :-: |
-| 11  |       [条件格式](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=13)        |  ⭐  |
-| 12  |    [定位，快速定位目标数值](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=14)    | ⭐⭐  |
-| 13  |        [视图](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=15)         | ⭐⭐  |
-| 14  |     [Excel表格打印](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=16)     |  ❌  |
-| 15  |      [了解函数本质](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=17)       | ✏️  |
-| 16  |    [Count系列统计函数](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=18)    | ✏️  |
-| 17  | [sum系列函数，教你批量求和(上)](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=19) | ✏️  |
-| 18  | [sum系列函数，教你批量求和(下)](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=20) | ✏️  |
-| 19  |       [查找替换](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=21)        | ✏️  |
-| 20  |       [分列功能](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=22)        | ✏️  |
+| 序号  |                                                                        课程                                                                        | 状态  |
+| :-: | :----------------------------------------------------------------------------------------------------------------------------------------------: | :-: |
+| 11  |    [条件格式](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=13)     |  ⭐  |
+| 12  | [定位，快速定位目标数值](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=14) | ⭐⭐  |
+| 13  |     [视图](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=15)      | ⭐⭐  |
+| 14  |  [Excel表格打印](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=16)  |  ❌  |
+| 15  |   [了解函数本质](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=17)    |  ⭐  |
+| 16  | [Count系列统计函数](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=18) |  ⭐  |
+| 17  | [sum系列函数(上)](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=19)  | ✏️  |
+| 18  | [sum系列函数(下)](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=20)  | ✏️  |
+| 19  |    [查找替换](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=21)     | ✏️  |
+| 20  |    [分列功能](https://www.bilibili.com/video/BV1Gq4y1M716?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.episodes&p=22)     | ✏️  |
 # 11条件格式
 | 序号  |                                   功能                                   | 介绍                                                | 评价  |
 | :-: | :--------------------------------------------------------------------: | ------------------------------------------------- | :-: |
@@ -69,19 +69,42 @@ source:
 
 # 15了解函数本质
 
-| 序号  |                                  功能                                   | 介绍                                                                                         | 评价  |
-| :-: | :-------------------------------------------------------------------: | ------------------------------------------------------------------------------------------ | :-: |
-| 01  |   [函数与公式的区别](https://www.bilibili.com/video/BV1Gq4y1M716?t=60&p=17)   | 公式以等号开头<br>函数是定义好的公式                                                                       |     |
-| 02  |   [函数位置](https://www.bilibili.com/video/BV1Gq4y1M716?t=185.5&p=17)    | `开始->自动求和=>其他函数`<br>`公式`                                                                   |     |
-| 03  |   [求和快捷键](https://www.bilibili.com/video/BV1Gq4y1M716?t=253.0&p=17)   | `alt+=`                                                                                    |     |
-| 04  |  [输入函数方法](https://www.bilibili.com/video/BV1Gq4y1M716?t=290.1&p=17)   | 直接输入函数，直接使用`tab`<br>如果不熟悉的话，点击编辑栏的函数图标<br>进入参数面板，字符的双引号会自动添加<br>同时可以使用快捷键 `ctrl+A`快速进入参数面板 |     |
-| 05  |  [绝对/相对引用](https://www.bilibili.com/video/BV1Gq4y1M716?t=593.9&p=17)  | `$`                                                                                        |     |
-| 06  | [添加美元符号快捷键](https://www.bilibili.com/video/BV1Gq4y1M716?t=829.2&p=17) | `F4`                                                                                       |     |
-| 07  | [应用-九九乘法表](https://www.bilibili.com/video/BV1Gq4y1M716?t=855.3&p=17)  |                                                                                            |     |
+| 序号  |                                          功能                                          | 介绍                                                                                                                     | 评价  |
+| :-: | :----------------------------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------- | :-: |
+| 01  |          [函数与公式的区别](https://www.bilibili.com/video/BV1Gq4y1M716?t=60&p=17)           | 公式以等号开头<br>函数是定义好的公式                                                                                                   |     |
+| 02  |           [函数位置](https://www.bilibili.com/video/BV1Gq4y1M716?t=185.5&p=17)           | `开始->自动求和=>其他函数`<br>`公式`                                                                                               |     |
+| 03  |          [求和快捷键](https://www.bilibili.com/video/BV1Gq4y1M716?t=253.0&p=17)           | `alt+=`                                                                                                                |     |
+| 04  |          [输入函数方法](https://www.bilibili.com/video/BV1Gq4y1M716?t=290.1&p=17)          | 直接输入函数，直接使用`tab`<br>如果不熟悉的话，点击编辑栏的函数图标<br>进入参数面板，字符的双引号会自动添加<br>同时可以使用快捷键 `ctrl+A`快速进入参数面板                             |     |
+| 05  |         [绝对/相对引用](https://www.bilibili.com/video/BV1Gq4y1M716?t=593.9&p=17)          | `$`                                                                                                                    |     |
+| 06  |        [添加美元符号快捷键](https://www.bilibili.com/video/BV1Gq4y1M716?t=829.2&p=17)         | `F4`                                                                                                                   |     |
+| 07  |         [应用-九九乘法表](https://www.bilibili.com/video/BV1Gq4y1M716?t=855.3&p=17)         |                                                                                                                        |     |
+
 # 16Count系列统计函数
-| 序号  |                                  功能                                   | 介绍                                                                                         | 评价  |
-| :-: | :-------------------------------------------------------------------: | ------------------------------------------------------------------------------------------ | :-: |
-|
+| 序号  |                                          功能                                          | 介绍                                                                                                                     | 评价  |
+| :-: | :----------------------------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------- | :-: |
+| 01  |                                       `COUNT`                                        | 返回包含数字以及包含参数列表中的数字的单元格的个数。<br>利用COUNT函数可以计算单元格区域或数字数组中数字字段的输入项个数。                                                      |     |
+| 02  |                                       `COUNTA`                                       | 返回参数列表中非空值的单元格个数。<br>利用函数COUNTA可以计算单元格区域或数组中包含数据的单元格个数。                                                                |     |
+| 03  |                                     `COUNTBLANK`                                     | 返回参数列表中空值的单元格个数。<br>利用函数COUNTBLANK可以计算单元格区域或数组中包含空格的单元格个数。                                                             |     |
+| 04  |          [统计考试人数](https://www.bilibili.com/video/BV1Gq4y1M716?t=371.0&p=18)          | 推荐使用 `counta` 函数，防止文本型数字的存在                                                                                            |     |
+| 05  |                          `COUNTIF(range,criteria)`<br>单条件计数                          | (1)Range为需要计算其中满足条件的单元格数目的单元格区域。<br>(2)Criteria为确定哪些单元格将被计算在内的条件，其形式可以为数字、表达式或文本。<br>例如，条件可以表示为32、"32"、">32"或"apples"。 |     |
+| 06  |   `COUNTIFS(COUNTIF_range1,criteria1,`<br>`COUNTIF_range2,criteria2...)`<br>多条件计数    | (I)COUNTIF_Range_n为需要计算其中满足条件的单元格数目的单元格区域。<br>(2)Criteria_n为确定哪些单元格将被计算在内的条件，其形式可以为数字、表达式或文本。                          |     |
+| 07  |       [COUNTIF细节技巧](https://www.bilibili.com/video/BV1Gq4y1M716?t=644.9&p=18)        |                                                                                                                        |     |
+| 08  |       [COUNTIF实际操作](https://www.bilibili.com/video/BV1Gq4y1M716?t=679.4&p=18)        |                                                                                                                        |     |
+| 09  |      [COUNTIF技巧错误说明](https://www.bilibili.com/video/BV1Gq4y1M716?t=817.9&p=18)       | 不推荐直接使用 `<G47`<br>`<`在excel中为文本型，文本+数字会默认其为一个整体                                                                        |     |
+| 10  |      [COUNTIF技巧正确操作](https://www.bilibili.com/video/BV1Gq4y1M716?t=870.4&p=18)       | `"<"` + 文本连接符& + 单元格位置                                                                                                 |     |
+| 11  | 交集个数统计——<br>[COUNTIFS实际操作](https://www.bilibili.com/video/BV1Gq4y1M716?t=949.6&p=18) | 可以输入127个具体的条件                                                                                                          |     |
+| 12  |   并集个数统计——<br>[实际操作演示](https://www.bilibili.com/video/BV1Gq4y1M716?t=1011.0&p=18)    |                                                                                                                        |     |
+| 13  |         [介绍-通配符](https://www.bilibili.com/video/BV1Gq4y1M716?t=1121.0&p=18)          | 通配符可以辅助帮我们查找特定的内容，<br>一般情况下使用的通配符通常有三个：<br>`*`，`?`(英文状态下)，`～`，分别代表<br>任意多个字符，一个字符和转义字符（将通配符表示为字符本身）                    |     |
+| 14  |     [操作-COUNTIF+通配符](https://www.bilibili.com/video/BV1Gq4y1M716?t=1217.1&p=18)      |                                                                                                                        |     |
+| 15  |          [课后作业](https://www.bilibili.com/video/BV1Gq4y1M716?t=1368.1&p=18)           |                                                                                                                        |     |
+# 17Sum系列函数(上)
+| 序号  | 功能  | 介绍  | 评价  |
+| :-: | :-: | --- | :-: |
+|     |     |     |     |
+
+
+
+
 
 
 
