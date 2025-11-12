@@ -1,8 +1,8 @@
 ---
 date_create: 2025-10-29-星期三
 type: Software
-status: unstarted
-source:
+status: partial-completed
+source: video
 sort: Excel
 ---
 # 00目录
