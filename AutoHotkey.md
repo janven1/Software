@@ -16,7 +16,7 @@ source:
 
 | 序号  |                            文件                             | 状态  |
 | :-: | :-------------------------------------------------------: | :-: |
-| 01  | [文件夹-akh脚本](file:E:\01Projects\25autumn\03Creation\03AHK) |     |
+| 01  | [文件夹-ahk脚本](file:E:\01Projects\25autumn\03Creation\03AHK) |     |
 | 02  |                                                           |     |
 | 03  |                                                           |     |
 
