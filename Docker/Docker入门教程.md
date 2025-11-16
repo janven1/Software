@@ -2,7 +2,9 @@
 date_create: 2025-11-15-星期六
 type: Software
 status: unstarted
-source:
+source: video
+date_start: 2025-11-15
+date_finish: 2025-11-16
 ---
 ## 00目录
 | 序号  |                                                                           课程                                                                            | 评价  |
@@ -13,11 +15,9 @@ source:
 | 04  |     [04.基本原理和概念](https://www.bilibili.com/video/BV14s4y1i7Vf?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.sections&p=4)      |     |
 | 05  |       [05.安装配置](https://www.bilibili.com/video/BV14s4y1i7Vf?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.sections&p=5)       |     |
 | 06  |  [06.容器化和Dockerfile](https://www.bilibili.com/video/BV14s4y1i7Vf?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.sections&p=6)  |     |
-| 07  |       [07.实践环节](https://www.bilibili.com/video/BV14s4y1i7Vf?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.sections&p=7)       |  ⏳  |
+| 07  |       [07.实践环节](https://www.bilibili.com/video/BV14s4y1i7Vf?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.sections&p=7)       |     |
 | 08  | [08.DockerDesktop的使用](https://www.bilibili.com/video/BV14s4y1i7Vf?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.sections&p=8) |     |
 | 09  | [09.DockerCompose简介](https://www.bilibili.com/video/BV14s4y1i7Vf?vd_source=aef73766b941d8e52cb9a97d24ea42a2&spm_id_from=333.788.videopod.sections&p=9)  |     |
-|     |                                                                                                                                                         |     |
-|     |                                                                                                                                                         |     |
 ## 01课程简介
 
 | 序号  |                                                     文件                                                      | 介绍                                                    | 评价  |
@@ -58,23 +58,23 @@ source:
 | 03  |  [Dockerfile](https://www.bilibili.com/video/BV14s4y1i7Vf?t=30.7&p=6)  | Dockerfile是一个文本文件，里面包含了一条条的指令，用来告诉Docker如何来构建镜像，这个镜像包括我们应用程序执行的所有命令，也就是各种依赖、配置环境和运行应用程序所需要的所有内容；<br>**一般说来包括以下内容**：<br>精简版的操作系统，比如Alpine<br>应用程序的运行时环境，比如NodeJS Java Python<br>应用程序，比如SpringBoot打包好的jar包<br>应用程序的第三方依赖库或者包<br>应用程序的配置文件、环境变量等等 |     |
 | 04  | [Dockerfile规范](https://www.bilibili.com/video/BV14s4y1i7Vf?t=68.2&p=6) | 一般来说，我们会在项目的根目录下创建一个叫Dockerfilel的文件，第一个字母D大写其他都小写，在这个文件中写入构建镜像所需要的各种指令之后，Docker就会根据这个Dockerfile文件来构建一个镜像，有了镜像就可以创建容器从而运行程序                                                                                                                     |     |
 ## 07实践环节
-| 序号  |                                      内容                                      | 介绍                                                                                                        | 评价  |
-| :-: | :--------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------- | :-: |
-| 01  |        [实践内容](https://www.bilibili.com/video/BV14s4y1i7Vf?t=7.7&p=7)         | 实践包括：编写Dockerfile、创建镜像、启动容器                                                                               |     |
-| 02  |   [创建问价夹并使用编辑器打开](https://www.bilibili.com/video/BV14s4y1i7Vf?t=14.8&p=7)    |                                                                                                           |     |
-| 03  |    [创建index.js文件](https://www.bilibili.com/video/BV14s4y1i7Vf?t=47.7&p=7)    | 输入代码`console.log("string")`<br>这段代码会在控制台中输出括号里面的内容<br>终端执行输入 `node filename`                              |     |
-| 04  |      [NodeJS介绍](https://www.bilibili.com/video/BV14s4y1i7Vf?t=80.6&p=7)      | NodeJs是一个运行时环境，它可以让我们在浏览器之外的地方，运行JavaScript的代码<br>NodeJS和JavaScript的关系，就像Java和JRE的关系一样，如果想运行Java程序需要安装JRE |     |
-| 05  |   [另一个环境运用程序的步骤](https://www.bilibili.com/video/BV14s4y1i7Vf?t=105.0&p=7)    | 1.安装操作系统；2.安装代码运行环境；3.复制应用程序、依赖包、配置文件；4.执行启动命令运行程序；<br>将这些步骤写入Dockerfile中，交给Docker自动完成                    |     |
-| 06  | [安装VSCode扩展-Docker](https://www.bilibili.com/video/BV14s4y1i7Vf?t=174.8&p=7) |                                                                                                           |     |
-| 07  |  [操作-编写Dockerfile](https://www.bilibili.com/video/BV14s4y1i7Vf?t=188.0&p=7)  | 详情见下方                                                                                                     |     |
-| 08  |      [命令-创建镜像](https://www.bilibili.com/video/BV14s4y1i7Vf?t=308.4&p=7)      |                                                                                                           |     |
-| 09  |     [提问-镜像文件位置](https://www.bilibili.com/video/BV14s4y1i7Vf?t=336.3&p=7)     | Docker镜像的存储暂不展开                                                                                           |     |
-| 10  |   [查看构建的Docker镜像](https://www.bilibili.com/video/BV14s4y1i7Vf?t=349.6&p=7)   | 使用到的Docker命令如下<br>并对显示的信息做出解释并补充命令细节                                                                      |     |
-| 11  |      [命令-运行程序](https://www.bilibili.com/video/BV14s4y1i7Vf?t=377.2&p=7)      | `docker run <image_name>`                                                                                 |     |
-| 12  |                                                                              |                                                                                                           |     |
-| 13  |                                                                              |                                                                                                           |     |
-| 14  |                                                                              |                                                                                                           |     |
-|     |                                                                              |                                                                                                           |     |
+| 序号  |                                      内容                                      | 介绍                                                                                                                      | 评价  |
+| :-: | :--------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------- | :-: |
+| 01  |        [实践内容](https://www.bilibili.com/video/BV14s4y1i7Vf?t=7.7&p=7)         | 实践包括：编写Dockerfile、创建镜像、启动容器                                                                                             |     |
+| 02  |   [创建问价夹并使用编辑器打开](https://www.bilibili.com/video/BV14s4y1i7Vf?t=14.8&p=7)    |                                                                                                                         |     |
+| 03  |    [创建index.js文件](https://www.bilibili.com/video/BV14s4y1i7Vf?t=47.7&p=7)    | 输入代码`console.log("string")`<br>这段代码会在控制台中输出括号里面的内容<br>终端执行输入 `node filename`                                            |     |
+| 04  |      [NodeJS介绍](https://www.bilibili.com/video/BV14s4y1i7Vf?t=80.6&p=7)      | NodeJs是一个运行时环境，它可以让我们在浏览器之外的地方，运行JavaScript的代码<br>NodeJS和JavaScript的关系，就像Java和JRE的关系一样，如果想运行Java程序需要安装JRE               |     |
+| 05  |   [另一个环境运用程序的步骤](https://www.bilibili.com/video/BV14s4y1i7Vf?t=105.0&p=7)    | 1.安装操作系统；2.安装代码运行环境；3.复制应用程序、依赖包、配置文件；4.执行启动命令运行程序；<br>将这些步骤写入Dockerfile中，交给Docker自动完成                                  |     |
+| 06  | [安装VSCode扩展-Docker](https://www.bilibili.com/video/BV14s4y1i7Vf?t=174.8&p=7) |                                                                                                                         |     |
+| 07  |  [操作-编写Dockerfile](https://www.bilibili.com/video/BV14s4y1i7Vf?t=188.0&p=7)  | 详情见下方                                                                                                                   |     |
+| 08  |      [命令-创建镜像](https://www.bilibili.com/video/BV14s4y1i7Vf?t=308.4&p=7)      |                                                                                                                         |     |
+| 09  |     [提问-镜像文件位置](https://www.bilibili.com/video/BV14s4y1i7Vf?t=336.3&p=7)     | Docker镜像的存储暂不展开                                                                                                         |     |
+| 10  |   [查看构建的Docker镜像](https://www.bilibili.com/video/BV14s4y1i7Vf?t=349.6&p=7)   | 使用到的Docker命令如下<br>并对显示的信息做出解释并补充命令细节                                                                                    |     |
+| 11  |      [命令-运行程序](https://www.bilibili.com/video/BV14s4y1i7Vf?t=377.2&p=7)      | `docker run <image_name>`                                                                                               |     |
+| 12  |   [说明-其他环境运行程序流程](https://www.bilibili.com/video/BV14s4y1i7Vf?t=398.2&p=7)   | 如果想要在另一个环境中运行程序，只需要将这个镜像文件复制过去，执行一下刚才的命令就行；或者将镜像上传至镜像仓库，例如：DockerHub或者Harbor，这样任何人都可以使用 `docker pull`命令来下载这个镜像文件，然后运行程序 |     |
+| 13  |     [在网站中运行镜像](https://www.bilibili.com/video/BV14s4y1i7Vf?t=432.7&p=7)      | [PlayWithDocker](https://labs.play-with-docker.com/)是一个非常好用的在线Docker环境，可以在这里免费尝试使用Docker的各种功能，比如：构建镜像、运行容器等等；           |     |
+| 14  | [PlayWithDocker操作](https://www.bilibili.com/video/BV14s4y1i7Vf?t=453.6&p=7)  | 分配一定时长的虚拟环境：**具体操作详见视频**                                                                                                |     |
+| 15  |      [命令-拉取镜像](https://www.bilibili.com/video/BV14s4y1i7Vf?t=490.1&p=7)      | `docker pull <address_in_DockerHub>`                                                                                    |     |
 ### 07编写Dockerfile
 镜像是按层次结构来构建的，每一层都是基于上一层的；
 要先指定一个基础镜像，然后在这个镜像上添加我们的应用程序；
@@ -119,9 +119,24 @@ docker image ls
 | 序号  | 标题  | 介绍       |                               含义                                | 评价  |
 | :-: | :-: | -------- | :-------------------------------------------------------------: | :-: |
 | 01  | TAG | `Latest` | 镜像标签，也就是镜像版本，如果不指定版本，默认为`latest`<br>如果想要指定版本，就需要在镜像名字后面加上冒号和版本号 |     |
-
-
-
+## DockerDesktop的使用
+| 序号  |                                    内容                                     | 介绍                                                                                                                                                                            | 评价  |
+| :-: | :-----------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-: |
+| 01  |       [镜像](https://www.bilibili.com/video/BV14s4y1i7Vf?t=18.7&p=8)        | 镜像的名称、标签、状态、创建时间、大小等信息<br>点击`播放按钮`能够运行一个容器，相当于`docker run`命令<br>`三个点`表示更多操作，点击之后会弹出菜单<br>1.查看这个镜像包中的详细信息<br>2.拉取镜像；3.推送镜像；<br>后面两项的操作前提是右上角头像位置登录到远程仓库<br>最后一个按钮就是删除的意思       |     |
+| 02  |       [容器](https://www.bilibili.com/video/BV14s4y1i7Vf?t=70.5&p=8)        | 可以看到容器的名称、使用的镜像、当前状态、端口信息以及上次启动的时间<br>最后的运行按钮和三个小点的扩展按钮提供容器启动或停止之类的快捷操作<br>垃圾桶按钮删除容器                                                                                          |     |
+| 03  |    [Volumes](https://www.bilibili.com/video/BV14s4y1i7Vf?t=102.3&p=8)     | 逻辑卷；可以查看容器的逻辑卷；<br>逻辑卷是Docker用来存储数据的；<br>Docker特点，容器中的数据是不会持续化的；<br>当我们创建一个容器时候，它通常以一个干净的文件系统开始。<br>容器启动之后我们可以在容器中创建文件和修改文件，但是容器停止之后，容器中所有的数据都会丢失掉，如果想要持久化容器中的数据的话，就需要使用到逻辑卷； |     |
+| 04  |    [作用原理-逻辑卷](https://www.bilibili.com/video/BV14s4y1i7Vf?t=135.0&p=8)    | 它可以把容器中的目录或者指定路径映射到宿主机的某一个目录或者位置上，这样就可以将数据保存到宿主机的磁盘上，实现了数据的持久化；                                                                                                               |     |
+|     |   [Beta版测试功能](https://www.bilibili.com/video/BV14s4y1i7Vf?t=149.2&p=8)    | 用来管理开发环境；我们可以在这里创建开发环境，然后使用一些代码配置这个开发环境，这样就可以将这个开发环境共享给项目中的其他开发人员，让每个人都在一个相同环境下进行开发，避免环境的不一致导致各种问题<br>**目前该界面未显示**                                                            |     |
+|     | [LearningCenter](https://www.bilibili.com/video/BV14s4y1i7Vf?t=169.2&p=8) | 略——**目前该界面未显示**                                                                                                                                                               |     |
+|     |   [Extensions](https://www.bilibili.com/video/BV14s4y1i7Vf?t=175.9&p=8)   | 可以安装一些扩展来增强它的功能，和VSCode功能相同                                                                                                                                                   |     |
+|     |                                                                           |                                                                                                                                                                               |     |
+|     |                                                                           |                                                                                                                                                                               |     |
+|     |                                                                           |                                                                                                                                                                               |     |
+## Docker Compose简介
+| 序号  |                                   内容                                   | 介绍                                                                                                                     | 评价  |
+| :-: | :--------------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------- | :-: |
+| 01  | [DockerCompose](https://www.bilibili.com/video/BV14s4y1i7Vf?t=4.8&p=9) | Docker Compose是由Docker官方开源的项目，是一个用来定义和运行多个Docker容器应用程序的工具，它通过一个单独的docker--compose.yaml的配置文件来配置应用程序的服务，一条命令即可创建并启动所有服务； |     |
+| 02  |     [应用场景](https://www.bilibili.com/video/BV14s4y1i7Vf?t=14.0&p=9)     | 搭建网站—前端、后端、数据库、缓存、负载均衡等多个服务器<br>**略**                                                                                  |  ⏳  |
 
 
 
