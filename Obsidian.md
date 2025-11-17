@@ -5,6 +5,7 @@ source: video
 status: updating
 ---
 
+
 > [!info]- 0.相关链接
 | 序号  | 功能                                                                                   | 评价  |
 | :-: | ------------------------------------------------------------------------------------ | :-: |
@@ -83,6 +84,12 @@ status: updating
 | ==4.1== | [任务管理](https://www.bilibili.com/video/BV1Gu4y1G7Yy)                                            |      |
 |   4.2   | [日记模板](https://www.bilibili.com/video/BV1fT4m1U7JS?vd_source=aef73766b941d8e52cb9a97d24ea42a2) |      |
 | ==4.3== | [双向链接情况查询](https://www.bilibili.com/video/BV1ZZ421b7Db?t=807.8)                                |      |
+
+>Obsidian是基于Electron做的，Electron是V8做的，V8相当于Chromium;所以Obsidian就是ChromeOS
+>>都属于猜测，未验证
+>
+>在网页和obsidian中使用快捷键 `shift+ctrl+I` 能够打开类似的网页框架界面
+>网页格式通过复制粘贴到obsidian中能够保持一种markdown语法格式
 
 [Vim 选手的全键盘 Obsidian 工作流](https://www.bilibili.com/video/BV1M94y197vW/?spm_id_from=333.337.search-card.all.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2)
 # 0. 相关链接
