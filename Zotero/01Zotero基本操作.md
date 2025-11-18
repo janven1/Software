@@ -1,16 +1,20 @@
 ---
 date_create: 2025-11-18-星期二
 type: Software
-status: unstarted
-source:
+status: completed
+source: video
 ---
 # 00链接
-| 序号  |                                                               文件                                                                | 评价  |
+
+- 正文引用链接的格式为"`链接-<序号>`"
+
+| 序号  |                                                               链接                                                                | 评价  |
 | :-: | :-----------------------------------------------------------------------------------------------------------------------------: | :-: |
 | 01  | [PDF-中文论文参考文献引用格式](file:E:\01Projects\25autumn\00Notice\02School\01学业\01毕业\毕业论文\00Tutorial\GB《信息与文献+参考文献著录规则》GBT+7714-2015.pdf) |     |
 | 02  |                                            [Zotero中文社区](https://zotero-chinese.com/)                                            |     |
 | 03  |                                           [easyScholar](https://www.easyscholar.cc/)                                            |     |
 | 04  |                                            [硅基流动官网](https://siliconflow.qingmo.net/)                                            |     |
+| 05  |                                               [Zotero官网](https://www.zotero.org/)                                               |     |
 # 01课程
 
 | 序号  |                                 内容                                  | 介绍                                                               | 评价  |
@@ -19,16 +23,16 @@ source:
 | 02  |   [Zotero下载](https://www.bilibili.com/video/BV1AopNzFE8o?t=96.7)    | [Zotero官方下载链接](https://www.zotero.org/download/)                 |     |
 | 03  |  [Zotero基础设置](https://www.bilibili.com/video/BV1AopNzFE8o?t=161.9)  | `编辑->设置`：主题色、语言、数据存放文件<br>`查看`：布局、密度                             |     |
 | 04  |    [新建文件夹](https://www.bilibili.com/video/BV1AopNzFE8o?t=216.0)     | 略                                                                |     |
-| 05  |                               英文文献导入                                | 详见下方                                                             |     |
-| 06  |                               中文文献导入                                | 详见下方                                                             |     |
+| 05  |                               英文文献导入                                | 文献导入方式；详见下方                                                      |     |
+| 06  |                               中文文献导入                                | 文献导入方式；详见下方                                                      |     |
 | 07  | [茉莉花插件定期更新翻译器](https://www.bilibili.com/video/BV1AopNzFE8o?t=635.5) | `编辑->设置->茉莉花->中文转换器->自动更新转换器->立即更新转换`                            | ⭐⭐  |
 | 08  |                               文献分类管理                                | 条目、文件夹管理及标签使用，详见下方<br>”其实我们的人生也会被贴上各种标签和成见，希望大家都拥有被讨厌的勇气，自己定义自己“ |     |
 | 09  |   [文献显示及排列](https://www.bilibili.com/video/BV1AopNzFE8o?t=915.2)    | 在文件夹所在的标题行处`右键`，<br>可以选择字段并能够随意进行拖动；<br>点击相应字段可以可对文献进行相应的排序      |     |
-| 10  |                               文献阅读与笔记                               | 详见下方                                                             |     |
-| 11  |                                文献引用                                 | 详见下方                                                             |     |
-| 12  |                          中文期刊/学位论文引用文参考文献                           | 详见下方<br>                                                         |     |
-| 13  |                                插件安装                                 | 详见下方                                                             |     |
-|     |                                                                     |                                                                  |     |
+| 10  |                               文献阅读与笔记                               | 文献阅读常用操作；详见下方                                                    |     |
+| 11  |                                文献引用                                 | 文献应用基础操作；详见下方                                                    |     |
+| 12  |                          中文期刊/学位论文引用文参考文献                           | **GB7714格式**、**书籍/网页应用操作**、**去除域代码**；详见下方                        |     |
+| 13  |                                插件安装                                 | 期刊及IF显示插件、翻译插件、AI插件；详见下方                                         |     |
+
 ## 05英文文献导入
 
 | 序号  |                                    内容                                    | 介绍                                                               | 评价  |
@@ -99,10 +103,7 @@ numeric和author-date引用效果，如图所示——
 | 01  |    [EtherealStyle](https://www.bilibili.com/video/BV1AopNzFE8o?t=1528.5)     | 在Zotero里面显示期刊的影响引子及分区;<br>1.在标题行中勾选`影响引子和期刊标签`<br>2.`鼠标移动到期刊标签->右键->列设置->SecretKey`此处需要填写easyscholar的密钥<br>3.进入`链接-03`，登录； 右上角`我的信息->开放接口->密钥`将其粘贴到`SecretKey`中，并保存<br>4.鼠标移动到文献条目上，`右键->更新->期刊标签`                                                                                      |  ⏳  |
 | 02  | [Translate for Zotero](https://www.bilibili.com/video/BV1AopNzFE8o?t=1584.5) | 0.打开pdf，选择需要翻译的段落即可；<br>1.`编辑->设置`小白默认设置足够了；                                                                                                                                                                                                                                            |     |
 | 03  |     [Awesome GPT](https://www.bilibili.com/video/BV1AopNzFE8o?t=1612.2)      | AI辅助论文阅读插件；<br>`编辑->设置->GPT`进行参数设置：<br>1.`Base API=>选择"siliconflow"`，打开`链接-04`硅基流动官网，需要付费——`模型广场`的模型如果显示有`钱袋`表示充值余额能用；如果显示`礼物`代表赠送余额能用；<br>2.`API密钥->新建API密钥->取名字->复制API密钥`粘贴到Zetoro中的`API Key`，选择相应的语言大模型；<br>3.⏳（略）<br>额外说明：AI的回复速度和你选的AI模型、网络环境、使用人数等都有关系，由于本教程为基础入门教程，不再演示该插件的其他用法； |     |
-|     |                                                                              |                                                                                                                                                                                                                                                                                         |     |
-|     |                                                                              |                                                                                                                                                                                                                                                                                         |     |
-|     |                                                                              |                                                                                                                                                                                                                                                                                         |     |
-|     |                                                                              |                                                                                                                                                                                                                                                                                         |     |
+
 
 
 
