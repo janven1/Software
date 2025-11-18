@@ -18,22 +18,22 @@ VSCode会自动进行更新
 | 07  |                                          [VS Code LaTeX安装](https://www.bilibili.com/video/BV18zsbz1ErV/)                                           | Latex下载 |     |
 |     |                                                                                                                                                    |         |     |
 # 00目录
+
 | 序号  |         笔记          | 状态  |
 | :-: | :-----------------: | :-: |
-| 00  |    [[VSCodeVim]]    |     |
 | 01  |  [[01VSCode配置C++]]  |  ✅  |
 | 02  |  [[02VSCode宝藏插件]]   |  ⏳  |
 | 03  |  [[03VSCode上手教程]]   |  ✅  |
-|     | [[04-01Vim+VSCode]] |  ⏳  |
-|     | [[05-02VSCode+Vim]] |  ✅  |
-|     |                     |     |
-|     |                     |     |
+| 04  | [[04-01Vim+VSCode]] |  ⏳  |
+| 05  | [[05-02VSCode+Vim]] |  ✅  |
+| 06  |   [[06VSCode快捷键]]   |     |
+| 07  | [[07VSCode配置Latex]] |     |
 |     |                     |     |
 # 00链接
 | 序号  |                                  文件                                  | 评价  |
 | :-: | :------------------------------------------------------------------: | :-: |
 | 01  | [文件夹-Vim配置参考](file:E:\01Projects\25autumn\03Creation\05Config\Vimrc) |     |
-| 02  |                                                                      |     |
+| 02  |                            [[VSCodeVim]]                             |     |
 | 03  |                                                                      |     |
 
 
