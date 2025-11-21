@@ -5,18 +5,16 @@ source: video
 status: updating
 ---
 
+```shell
+#修改git默认的文本编辑器为nvim
+git config --global core.editor "nvim"
+```
 # 1. VsCode + Git
 - [ ] [给傻子的Git教程](https://www.bilibili.com/video/BV1Hkr7YYEh8/?spm_id_from=333.337.search-card.all.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2)
 
 ```powershell
 cd D:\obsidian-study\学习记录\笔记\Software
 ```
-
-
-| 序号  | 课程名 | 完成状态 |
-| --- | --- | ---- |
-|     |     |      |
-
 
 # 1. 简介
 (link::[01.课程简介](https://www.bilibili.com/video/BV1HM411377j/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2))
