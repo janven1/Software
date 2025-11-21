@@ -1,8 +1,8 @@
 ---
 date_create: 2025-11-10-星期一
 type: Software
-status: unstarted
-source:
+status: updating
+source: video
 ---
 
 
@@ -14,7 +14,7 @@ source:
 | 序号  |        目录         | 状态  | 评分  |
 | :-: | :---------------: | :-: | :-: |
 | 01  | [[00-10丽诗Word教程]] |  ❌  |     |
-| 02  | [[11-20丽诗Word教程]] |     |     |
+| 02  | [[11-20丽诗Word教程]] |  ⏳  |     |
 | 03  | [[21-30丽诗Word教程]] |     |     |
 |     |                   |     |     |
 
