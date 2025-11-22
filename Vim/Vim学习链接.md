@@ -17,6 +17,11 @@ status: updating
 | 07  |                                        [Vim 党必看! CapsLock 一键双用：](https://www.bilibili.com/video/BV1oVWqzrEya/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2)                                         |  ⏳  |             |
 | 08  |  [指尖飞舞：vscode + vim 高效开发（系列视频）](https://www.bilibili.com/video/BV1z541177Jy?spm_id_from=333.788.recommend_more_video.-1&trackid=web_related_0.router-related-2206146-mbfvr.1761265871097.284&vd_source=aef73766b941d8e52cb9a97d24ea42a2)  |     |             |
 | 09  |                                                                [Neovim从零配置](https://www.bilibili.com/video/BV1Td4y1578E/?t=0.0&vd_source=aef73766b941d8e52cb9a97d24ea42a2)                                                                | ⏳⏳  |             |
+| 10  |                                                                                          [现代化Vim教程](https://www.bilibili.com/video/BV1HJRyYgE9k)                                                                                          | 😍  |             |
+|     |                                   [自从用了Neovim 鼠标我已经扔了_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1TJCvYFE2T/?spm_id_from=333.337.search-card.all.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2)                                   |     |             |
+|     |                                       [Vim 屠龙术 - 套路_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1zqkDBEEm5/?spm_id_from=333.1007.tianma.1-2-2.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2)                                       |     |             |
+|     |                              [轻松上手LazyVim：最强大功能的NeoVim编辑器！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1868QeaEtm/?spm_id_from=333.337.search-card.all.click&vd_source=aef73766b941d8e52cb9a97d24ea42a2)                              |     |             |
+|     |                                                                                                                                                                                                                                           |     |             |
 1988毕业的Bram从荷兰代尔夫特理工大学毕业不久
 ![[01VimHistory.png|324x244]]
 
@@ -25,7 +30,7 @@ status: updating
 | 序号  |        文件        | 评价  |
 | :-: | :--------------: | :-: |
 | 01  | [[09Neovim从零配置]] |     |
-| 02  |                  |     |
+| 02  |  [[10现代化Vim教程]]  |     |
 | 03  |                  |     |
 
 
