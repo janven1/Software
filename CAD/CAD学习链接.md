@@ -1,22 +1,22 @@
 ---
 date_create: 2025-11-21-星期五
 type: foreword
-foreword: CAD
+foreword: CAD_0
 ---
 # 链接
 
-| 序号  |                              链接                              | 评价  |
-| :-: | :----------------------------------------------------------: | :-: |
-| 00  | [CAD下载指导](https://mp.weixin.qq.com/s/eNb1xvPa5d6vYnpvf1rUgw) | ⭐⭐  |
-| 01  |   [速成AutoCAD](https://www.bilibili.com/video/BV1Tg411k7XX)   |  ⏳  |
-| 02  |  [Tutor南洋CAD](https://www.bilibili.com/video/BV1aT4y1B7oY)   |     |
-| 03  |  [CAD2020入门教程](https://www.bilibili.com/video/BV1Hx411f772)  |     |
+| 序号  |                              链接                              | 评价  |    添加时间    |
+| :-: | :----------------------------------------------------------: | :-: | :--------: |
+| 00  | [CAD下载指导](https://mp.weixin.qq.com/s/eNb1xvPa5d6vYnpvf1rUgw) | ⭐⭐  | 2025-11-21 |
+| 01  |   [速成AutoCAD](https://www.bilibili.com/video/BV1Tg411k7XX)   | ⭐⭐  | 2025-11-23 |
+| 02  |  [Tutor南洋CAD](https://www.bilibili.com/video/BV1aT4y1B7oY)   |     | 2025-11-23 |
+| 03  |  [CAD2020入门教程](https://www.bilibili.com/video/BV1Hx411f772)  |     | 2025-11-23 |
 # 笔记
-| 序号  |        文件         | 评价  |
-| :-: | :---------------: | :-: |
-| 01  |  [[01速成AutoCAD]]  |     |
-| 02  | [[02Tutor南洋CAD]]  |     |
-| 03  | [[03CAD2020入门教程]] |     |
+| 序号  |        文件         | 状态  |                 介绍                 |
+| :-: | :---------------: | :-: | :--------------------------------: |
+| 01  |  [[01速成AutoCAD]]  |  ✅  | 视图操作、添加图形、图层讲解、<br>图形填充、注释添加及修改、出图 |
+| 02  | [[00Tutor南洋CAD]]  |  ⏳  |                                    |
+| 03  | [[03CAD2020入门教程]] |     |                                    |
 # 收集
 | 序号  | 文件  | 评价  |
 | :-: | :-: | :-: |
