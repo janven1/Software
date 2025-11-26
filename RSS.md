@@ -10,7 +10,7 @@ source:
 | :-: | :-------------------------------------------------------: | :---------------------------: | :-: |
 | 01  |    [Folo](https://www.bilibili.com/video/BV1S2UDYWEKs)    |                               |     |
 | 02  | [RSS订阅基础教程](https://www.bilibili.com/video/BV1mz42197g1)  |                               |  ✅  |
-| 03  | [RSS订阅微信公众号](https://www.bilibili.com/video/BV17b421i7hd) | 需要[[Docker学习链接\|Docker部署]]的学习 |  ✅  |
+| 03  | [RSS订阅微信公众号](https://www.bilibili.com/video/BV17b421i7hd) | 需要[[00Docker学习链接\|Docker部署]]的学习 |  ✅  |
 
 # 00链接
 | 序号  |                             链接                             | 评价  |                    备注                     |
