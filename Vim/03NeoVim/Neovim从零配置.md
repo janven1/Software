@@ -3,6 +3,7 @@ date_create: 2025-11-21-星期五
 type: Software
 status: unstarted
 source: video
+software: NeoVim
 ---
 ```Vim
 #确认NeoVim的配置文件位置

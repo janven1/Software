@@ -2,7 +2,7 @@
 date_create: 2025-11-01-星期六
 type: Software
 status: updating
-source:
+software: vim
 ---
 vim主题配置地址为 `C/users/dell/.vim`
 
