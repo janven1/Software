@@ -1,15 +1,16 @@
 ---
 date_create: 2025-11-22-星期六
 type: Software
-status: unstarted
 source: video
 software: NeoVim
+status: completed
+date_finish: 2025-12-07
 ---
 # 00链接
 | 序号  |                            内容                            | 类型  | 介绍                                  | 状态  |
 | :-: | :------------------------------------------------------: | :-: | ----------------------------------- | :-: |
 | 01  | [gitee-scoop配置](https://gitee.com/scoop-installer/scoop) | 🌐  | 详细介绍了scoop的安装和使用                    |  ✅  |
-| 02  |         [lazyvim下载教程](https://www.lazyvim.org/)          | 🌐  | lazyvim的官方下载教程                      |  ✅  |
+| 02  |          [lazyvim官网](https://www.lazyvim.org/)           | 🌐  | lazyvim的官方下载教程                      |  ✅  |
 | 03  |     [UP‘s lazyvim配置](https://github.com/pdcxs/nvim)      | 🌐  | UP提供了一个修改neovim配置文件夹改变的脚本，避免C盘占用内存； |  ✅  |
 | 04  |         [NerdFont官网](https://www.nerdfonts.com/)         | 🌐  | 可下载相应的字体用于neovim插件需要的图标显示           |  ✅  |
 | 05  |     [neovide网址](https://github.com/neovide/neovide)      | 🌐  | 用于下载安装neovide                       |  ✅  |
@@ -19,10 +20,9 @@ software: NeoVim
 | 序号  |                                     内容                                     | 类型  | 介绍                                                                                     | 状态  |
 | :-: | :------------------------------------------------------------------------: | :-: | -------------------------------------------------------------------------------------- | :-: |
 | 02  |       [UP经验-Vim](https://www.bilibili.com/video/BV1HJRyYgE9k?t=1.5)        | 📽️ | 对目前使用Vim的现状进行了说明(*听得不是很明白*) <br>Vim学习理由、该教程特点、lazyvim作用(可以将配置省略，和大多数IDE相同)<br>**详见视频** |  ✅  |
-| 01  |                                    环境搭建                                    |  ⏳  | 使用scoop介绍了LazyVim的安装教程<br>**详见下方**                                                     |  ⏳  |
-| 03  |                               UP个人lazyvim配置                                | ✏️  | 请结合 [[Neovim从零配置\|📄Neovim从零配置]] 了解neovim配置的基础文件结构和逻辑：                                 |     |
-|     | [操作-PowerToys修改键位映射](https://www.bilibili.com/video/BV1HJRyYgE9k?t=1434.5) | 📽️ | 将ESC键映射为大写锁定 **略**                                                                     |  ❌  |
-|     |                                    UP主题                                    |     |                                                                                        |     |
+| 01  |                                    环境搭建                                    |  ⏳  | 使用scoop介绍了LazyVim的安装教程<br>**详见下方**                                                     |  ✅  |
+| 02  |                               UP个人lazyvim配置                                | ✏️  | 请结合 [[Neovim从零配置\|📄Neovim从零配置]] 了解neovim配置的基础文件结构和逻辑：                                 |  ✅  |
+| 03  | [操作-PowerToys修改键位映射](https://www.bilibili.com/video/BV1HJRyYgE9k?t=1434.5) | 📽️ | 将ESC键映射为大写锁定 **略**                                                                     |  ❌  |
 ## 01环境搭建
 |  序号   |                                   文件                                    | 类型  | 介绍                                              | 状态  |
 | :---: | :---------------------------------------------------------------------: | :-: | ----------------------------------------------- | :-: |
@@ -52,24 +52,47 @@ cd $env:LOCALAPPDATA
 操作——
 - UP提供相应的脚本链接 `00-03` 具体脚本位于 `../01-05.01`
 ### 06具体安装
-| 序号  |   软件   | 介绍        | 状态  |
-| :-: | :----: | --------- | :-: |
-| 01  | Neovim | 注意软件安装的版本 |     |
-| 02  |  Git   | 已经在安装     |     |
-| 03  |        |           |     |
-|     |        |           |     |
+| 序号  |                                  软件                                   | 类型  | 介绍                                                                             |
+| :-: | :-------------------------------------------------------------------: | :-: | ------------------------------------------------------------------------------ |
+| 00  |                 [lazyvim官网](https://www.lazyvim.org/)                 | 🌐  | 详细介绍了需要安装的软件                                                                   |
+| 01  |                                Neovim                                 | ✏️  | 注意软件安装的版本 **详见视频**                                                             |
+| 02  |                                  Git                                  | ✏️  | 已经在安装scoop的时候就完成了安装 **略**                                                      |
+| 03  |  [NerdFont字体下载](https://www.bilibili.com/video/BV1HJRyYgE9k?t=661.5)  | 📽️ | 字体官网链接**详见**`00`, <br>up推荐`CaskaydiaCove Nerd Font`，*非常不错* <br>其他补充说明 **详见下方** |
+| 04  |  [lazygit](file:https://www.bilibili.com/video/BV1HJRyYgE9k?t=710.8)  | 📽️ | 推荐安装；操作 **详见视频**                                                               |
+| 05  |     [mingw](https://www.bilibili.com/video/BV1HJRyYgE9k?t=726.1)      | 📽️ | C语言编译器，UP使用mingw **略**                                                         |
+| 05  |      [curl](https://www.bilibili.com/video/BV1HJRyYgE9k?t=737.1)      | 📽️ | **略**                                                                          |
+| 06  |    [fzf / fd](https://www.bilibili.com/video/BV1HJRyYgE9k?t=753.0)    | 📽️ | windows用户无需安装 `live grep`，而是使用 `fd`<br>**详见视频**                                |
+| 07  |     [nvim终端](https://www.bilibili.com/video/BV1HJRyYgE9k?t=764.1)     | 📽️ | 终端说明 **详见视频及下方**；<br>同时这也是解决nvim插件中的图标无法显示的原因之一                                |
+| 08  |  [步骤-lazyvim安装](https://www.bilibili.com/video/BV1HJRyYgE9k?t=802.4)  | 📽️ | 具体操作 **详见视频**<br>**注意**：需要进入 `congfig` 目录执行命令<br>具体命令细节 **详见下方**               |
+| 09  | [操作演示-lazyvim安装](https://www.bilibili.com/video/BV1HJRyYgE9k?t=869.3) | 📽️ | UP使用wsl进行演示，不影响理解，<br>实际过程与windows相同；<br>**详见视频**                              |
+#### 03NerdFont字体下载
+- 下载后后将其装在 `Win + R -> fonts` 直接将下载的字体拖动到该文件夹进行下载安装即可；
+**说明**：
+- [ ] 当我们根据视频下载安装完成所有的软件并下载了lazyvim后发现，在powershell的终端中仍然无法正常显示光标；这时候不是字体的缺失的问题，而是**终端的问题**；（通过Deepseek了解）
+- 解决方案——`07`
+#### 07nvim终端
+- [ ] 直接使用Neovide，Neovim的GUI界面非常Nice（*光标移动的动画非常炫酷*，*可以全屏覆盖*）；
+- [ ] 根据lazyvim官网推荐的终端进行下载；（例如：[[00Wezterm学习链接|📄Wezterm]] ）
+	- 同时也验证了是终端的问题，导致图标无法正常显示；
+#### 08步骤-lazyvim安装
+```powershell
+git clone ... + <YourPath>
+```
+**例子**：
+```powershell
+git clone https://github.com/LazyVim/starter D:\Software\xgd\config\nvim
+```
 
-
-
-## UP个人lazyvim配置
-| 序号  |                                  内容                                  | 类型  | 介绍                                                                                  | 状态  |
-| :-: | :------------------------------------------------------------------: | :-: | ----------------------------------------------------------------------------------- | :-: |
-| 00  |   [config说明](https://www.bilibili.com/video/BV1HJRyYgE9k?t=1033.2)   | 📽️ | 视频开头；链接为 `00-03`                                                                    |  ✅  |
-| 01  | [autocmds.lua](https://www.bilibili.com/video/BV1HJRyYgE9k?t=1040.6) | 📽️ | 用于xmake管理C++项目-*配置修改*<br>python-*配置修改*—**实际文件已经改动不再有该内容**<br>**代码如下**               |  ✅  |
-| 02  |                               lazy.lua                               |  ❌  | 基本未改动                                                                               |  ✅  |
-| 03  |                             options.lua                              | ✏️  | 配置了neovide的显示设置；以及neovim的自身设置<br>**详见下方**                                           |  ✅  |
-| 04  | [keymaps.lua](https://www.bilibili.com/video/BV1HJRyYgE9k?t=1217.3)  | 📽️ | 配置了neovide中显示调节的快捷键；<br>**代码如下**                                                    |  ✅  |
-| 05  |   [plugins](https://www.bilibili.com/video/BV1HJRyYgE9k?t=1378.1)    | 📽️ | 记录了UP的主题rose-pine配置代码；**代码如下**<br>从Deepseek中学习了如何更换主题以及取消主题显示和删除具体的插件的文件路径 **详见下方** |  ✅  |
+- 执行完该代码后，启动nvim，lazyvim会自动安装；
+## 03UP个人lazyvim配置
+| 序号  |                                  内容                                  | 类型  | 介绍                                                                                      | 状态  |
+| :-: | :------------------------------------------------------------------: | :-: | --------------------------------------------------------------------------------------- | :-: |
+| 00  |   [config说明](https://www.bilibili.com/video/BV1HJRyYgE9k?t=1033.2)   | 📽️ | 视频开头；链接为 `00-03`                                                                        |  ✅  |
+| 01  | [autocmds.lua](https://www.bilibili.com/video/BV1HJRyYgE9k?t=1040.6) | 📽️ | 用于xmake管理C++项目-*配置修改*<br>python-*配置修改*—**实际文件已经改动不再有该内容**<br>**代码如下**                   |  ✅  |
+| 02  |                               lazy.lua                               |  ❌  | 基本未改动                                                                                   |  ✅  |
+| 03  |                             options.lua                              | ✏️  | 配置了neovide的显示设置；以及neovim的自身设置<br>**详见下方**                                               |  ✅  |
+| 04  | [keymaps.lua](https://www.bilibili.com/video/BV1HJRyYgE9k?t=1217.3)  | 📽️ | 配置了neovide中显示调节的快捷键；<br>**代码如下**                                                        |  ✅  |
+| 05  |   [plugins](https://www.bilibili.com/video/BV1HJRyYgE9k?t=1378.1)    | 📽️ | 记录了UP的主题rose-pine配置代码；**代码如下**<br>从Deepseek中学习了如何更换主题以及<br>取消主题显示和删除具体的插件的文件路径 **详见下方** |  ✅  |
 ### 01autocmds.lua
 ```lua
 if not vim.g.vscode then
@@ -215,12 +238,12 @@ return {
 |     |     |     |     |      |
 
 ## 02优秀之处
-| 序号  |      内容       | 介绍  | 状态  |
-| :-: | :-----------: | --- | :-: |
-| 01  | 下载并了解了wezterm |     |     |
-| 02  |               |     |     |
-| 03  |               |     |     |
-|     |               |     |     |
+| 序号  |          内容          | 介绍  |
+| :-: | :------------------: | --- |
+| 01  |    下载并了解了wezterm     |     |
+| 02  | 完成了所有的lazyvim下载安装的过程 |     |
+| 03  |  使用大模型寻找相关知识及问题解决方案  |     |
+|     |                      |     |
 
 
 
