@@ -7,16 +7,19 @@ status: stopped
 function: OfficeSkills
 ---
 - 1979年的VisiCalc，第一个电子表格程序比纸好无数倍，是微软Excel和Google Sheets的老祖先
+# 00学习链接
 
-| 序号  | 功能                                                                                                                                            | 类型  | 介绍                        | 评分  |
-| :-: | --------------------------------------------------------------------------------------------------------------------------------------------- | :-: | ------------------------- | :-: |
-| 11  | [Excel数据作图](https://www.bilibili.com/video/BV14b4y1b7Jj/)                                                                                     |     |                           |     |
-| 12  | [双纵坐标散点图](https://www.bilibili.com/video/BV1As4y1X7So?spm_id_from=333.788.recommend_more_video.-1&vd_source=aef73766b941d8e52cb9a97d24ea42a2) |     |                           |     |
-| 13  | [3D绘图尝试](https://www.bilibili.com/video/BV1At4y1U7Dt?t=161.2)                                                                                 |     |                           |     |
-| 01  | 若梦Excel教程                                                                                                                                     | ✏️  | 讲解了基本的Excel操作<br>**详见下方** |  ⭐  |
-| 02  | [excel宏](https://search.bilibili.com/all?keyword=excel%E5%AE%8F&from_source=webtop_search&order=stow)                                         |     |                           |     |
-| 03  | [Python办公之Excel篇(openpyxl)](https://www.bilibili.com/video/BV1Bv4y1K74A/)                                                                     |     |                           |     |
-|     | [Excel VBA 入门教程](https://www.bilibili.com/video/BV1gr4y137WY/)                                                                                |     |                           |     |
+| 序号  | 功能                                                                                                                                            | 类型  | 介绍                        | 状态  |    添加时间    |
+| :-: | --------------------------------------------------------------------------------------------------------------------------------------------- | :-: | ------------------------- | :-: | :--------: |
+| 11  | [Excel数据作图](https://www.bilibili.com/video/BV14b4y1b7Jj/)                                                                                     |     |                           |     |            |
+| 12  | [双纵坐标散点图](https://www.bilibili.com/video/BV1As4y1X7So?spm_id_from=333.788.recommend_more_video.-1&vd_source=aef73766b941d8e52cb9a97d24ea42a2) |     |                           |     |            |
+| 13  | [3D绘图尝试](https://www.bilibili.com/video/BV1At4y1U7Dt?t=161.2)                                                                                 |     |                           |     |            |
+| 01  | 若梦Excel教程                                                                                                                                     | ✏️  | 讲解了基本的Excel操作<br>**详见下方** |  ❌  |            |
+| 02  | [excel宏](https://search.bilibili.com/all?keyword=excel%E5%AE%8F&from_source=webtop_search&order=stow)                                         |     |                           |     |            |
+| 03  | [[Python-Excel]]                                                                                                                              | 📄  |                           |  ❌  |            |
+| 04  | [Excel VBA 入门教程](https://www.bilibili.com/video/BV1gr4y137WY/)                                                                                |     |                           |     |            |
+| 05  | [Excel电竞-折纸](https://www.bilibili.com/video/BV1rRmjBiEiq)                                                                                     | 📽️ | 使用excel完成一些更加复杂操作演示和讲解    |  ❌  | 2025-12-18 |
+|     |                                                                                                                                               |     |                           |     |            |
 [[Excel 数据绘图功能探索]]
 # 00学习记录
 | 序号  |  决定  |     时间     | 理由                         |
